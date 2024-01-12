@@ -6,210 +6,351 @@
 <html class="u-theme--denim" lang="en-US">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <?php include "head.php"; ?>
+<?php include "loading.php"; ?>
 <?php include "header.php"; ?>
 
 
 
 
 
-    <header class="c-hero c-page-header c-page-header__feature  ">
-    <div class="c-page-header__content">
-                    <section class="c-hero-carousel">
-  <div class="c-carousel c-carousel--inset u-position--relative">
-    <div class="c-carousel__slides js-carousel__single-item">
-                      <div class="c-carousel__item--inset u-position--relative">
+<header class="c-hero c-page-header c-page-header__feature  ">
+	<div class="c-page-header__content">
+		<section class="c-hero-carousel">
+			<div class="c-carousel c-carousel--inset u-position--relative">
+				<div class="c-carousel__slides js-carousel__single-item">
+					<div class="c-carousel__item--inset u-position--relative">
 
-  <picture class="picture">
-    <!--[if IE 9]><video style="display: none;"><![endif]-->
-          <source srcset="https://sidadventist.org/wp-content/uploads/2020/08/Christ-Children-figure-2.png" media="(min-width: 1100px)">
-              <source srcset="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/Christ-Children-figure-2.png?resize=1100%2C576&amp;ssl=1" media="(min-width: 800px)">
-        <source srcset="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/Christ-Children-figure-2.png?resize=800%2C450&amp;ssl=1" media="(min-width: 500px)">
-    <!--[if IE 9]></video><![endif]-->
-    <img itemprop="image" srcset="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/Christ-Children-figure-2.png?resize=500%2C280&amp;ssl=1" alt="">
-  </picture>
+						<picture class="picture">
+							<!--[if IE 9]><video style="display: none;"><![endif]-->
+							<source
+								srcset="https://sidadventist.org/wp-content/uploads/2020/08/Christ-Children-figure-2.png"
+								media="(min-width: 1100px)">
+							<source
+								srcset="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/Christ-Children-figure-2.png?resize=1100%2C576&amp;ssl=1"
+								media="(min-width: 800px)">
+							<source
+								srcset="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/Christ-Children-figure-2.png?resize=800%2C450&amp;ssl=1"
+								media="(min-width: 500px)">
+							<!--[if IE 9]></video><![endif]-->
+							<img itemprop="image"
+								srcset="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/Christ-Children-figure-2.png?resize=500%2C280&amp;ssl=1"
+								alt="">
+						</picture>
 
 
 
-  <div class="c-carousel__item-text__wrap u-theme--background-color-trans--dark">
-    <div class="l-container">
-      <div class="c-carousel__item-text u-spacing--half">
-        <div class="c-carousel__item-text--inner">
-                      <h2 class="u-font--primary--xl c-carousel__item-heading">
-              Adventist Children’s Ministries
-            </h2>
-                                <div class="c-carousel__item-dek u-padding--half--bottom u-theme--primary-transparent-background-color">
-              <p></p>
-            </div>
-                  </div>
-              </div>
-    </div>
-  </div>
-</div>
-          </div>
-  </div>
-</section>          </div>
-      </header> <!-- /.c-page-header -->
-<section id="top" class="l-main__content l-grid l-grid--7-col u-shift--left--1-col--at-xxlarge l-grid-wrap--6-of-7 u-spacing--double--until-xxlarge u-padding--zero--sides">
-  <article class="c-article l-grid-item l-grid-item--l--4-col l-grid-item--xxl--3-col post-663 page type-page status-publish hentry">
-    <div class="c-article__body">
-      <div class="text u-spacing">
-        <nav class="c-breadcrumbs" role="navigation">
-      </nav>
-                		<div data-elementor-type="wp-post" data-elementor-id="663" class="elementor elementor-663" data-elementor-post-type="page">
-									<section class="elementor-section elementor-top-section elementor-element elementor-element-fccb9ff elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fccb9ff" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-90f129d" data-id="90f129d" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-e4fea71 elementor-position-right elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="e4fea71" data-element_type="widget" data-widget_type="image-box.default">
-				<div class="elementor-widget-container">
-			<div class="elementor-image-box-wrapper">
-				<img src="assets/images/teacher-children.jpg" width="50%"/>
-
-				<div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Children's, Teacher</h3><p class="elementor-image-box-description">email@gmail.com</p></div></div>		</div>
-				</div>
-					</div>
-		</div>
+						<div class="c-carousel__item-text__wrap u-theme--background-color-trans--dark">
+							<div class="l-container">
+								<div class="c-carousel__item-text u-spacing--half">
+									<div class="c-carousel__item-text--inner">
+										<h2 class="u-font--primary--xl c-carousel__item-heading">
+											Adventist Children’s Ministries
+										</h2>
+										<div
+											class="c-carousel__item-dek u-padding--half--bottom u-theme--primary-transparent-background-color">
+											<p></p>
+										</div>
+									</div>
+								</div>
 							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-0b485fa elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0b485fa" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9242c17" data-id="9242c17" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-abc4146 elementor-position-top elementor-widget elementor-widget-image-box" data-id="abc4146" data-element_type="widget" data-widget_type="image-box.default">
-				<div class="elementor-widget-container">
-			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img decoding="async" data-attachment-id="8073" data-permalink="https://sidadventist.org/childrens-ministries/childrensmin-logo-vector/" data-orig-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vector.png?fit=736%2C374&amp;ssl=1" data-orig-size="736,374" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ChildrensMin-logo-vector" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vector.png?fit=300%2C152&amp;ssl=1" data-large-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vector.png?fit=736%2C374&amp;ssl=1" width="736" height="374" src="../../i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vectorc6ed.png?fit=736%2C374&amp;ssl=1" class="attachment-large size-large wp-image-8073" alt="" data-attachment-id="8073" data-permalink="https://sidadventist.org/childrens-ministries/childrensmin-logo-vector/" data-orig-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vector.png?fit=736%2C374&amp;ssl=1" data-orig-size="736,374" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ChildrensMin-logo-vector" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vector.png?fit=300%2C152&amp;ssl=1" data-large-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vector.png?fit=736%2C374&amp;ssl=1" srcset="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vector.png?w=736&amp;ssl=1 736w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vector.png?resize=300%2C152&amp;ssl=1 300w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vector.png?resize=350%2C178&amp;ssl=1 350w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vector.png?resize=700%2C356&amp;ssl=1 700w" sizes="(max-width: 736px) 100vw, 736px" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">Adventist Children’s Ministries is about developing the faith of children ages birth to fourteen.
-
-While Sabbath School provides for religious education once a week, Children’s Ministries looks at the whole child and seeks to provide multiple ministries that will lead children to Jesus and disciple them in their daily walk with Him.
-
-The mission of the Children’s Ministries Department is to nurture children into a loving, serving relationship with Jesus. And that every child in the world will be invited to know Jesus Christ and accept Him as his/her personal Friend and Savior.</p></div></div>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-83610e8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="83610e8" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3d50480" data-id="3d50480" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-056b5f7 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="056b5f7" data-element_type="widget" data-widget_type="divider.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-divider">
-			<span class="elementor-divider-separator">
-						</span>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-d300545 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d300545" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-54414a6" data-id="54414a6" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-b3d8866 elementor-widget elementor-widget-image" data-id="b3d8866" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" data-attachment-id="8075" data-permalink="https://sidadventist.org/childrens-ministries/25th-chm2020-vector/" data-orig-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?fit=2200%2C1700&amp;ssl=1" data-orig-size="2200,1700" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="25th-CHM2020-Vector" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?fit=300%2C232&amp;ssl=1" data-large-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?fit=1024%2C791&amp;ssl=1" width="1024" height="791" src="../../i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector23dc.jpg?fit=1024%2C791&amp;ssl=1" class="attachment-large size-large wp-image-8075" alt="" srcset="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?w=2200&amp;ssl=1 2200w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?resize=300%2C232&amp;ssl=1 300w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?resize=1024%2C791&amp;ssl=1 1024w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?resize=768%2C593&amp;ssl=1 768w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?resize=1536%2C1187&amp;ssl=1 1536w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?resize=2048%2C1583&amp;ssl=1 2048w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?resize=350%2C270&amp;ssl=1 350w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?resize=700%2C541&amp;ssl=1 700w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?resize=900%2C695&amp;ssl=1 900w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?resize=1100%2C850&amp;ssl=1 1100w" sizes="(max-width: 1000px) 100vw, 1000px" data-attachment-id="8075" data-permalink="https://sidadventist.org/childrens-ministries/25th-chm2020-vector/" data-orig-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?fit=2200%2C1700&amp;ssl=1" data-orig-size="2200,1700" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="25th-CHM2020-Vector" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?fit=300%2C232&amp;ssl=1" data-large-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?fit=1024%2C791&amp;ssl=1" />															</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-9b35474 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9b35474" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3ab43b4" data-id="3ab43b4" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-60f27b8 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="60f27b8" data-element_type="widget" data-widget_type="divider.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-divider">
-			<span class="elementor-divider-separator">
-						</span>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-6403861 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6403861" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b869f47" data-id="b869f47" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-5c57c10 elementor-cta--skin-classic elementor-animated-content elementor-bg-transform elementor-bg-transform-zoom-in elementor-widget elementor-widget-call-to-action" data-id="5c57c10" data-element_type="widget" data-widget_type="call-to-action.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-cta">
-					<div class="elementor-cta__bg-wrapper">
-				<div class="elementor-cta__bg elementor-bg" style="background-image: url(../../i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/Christ-Children-figure-22cdb.png?fit=1024%2C393&amp;ssl=1);" role="img" aria-label="Christ-Children-figure-2"></div>
-				<div class="elementor-cta__bg-overlay"></div>
-			</div>
-
 						</div>
-				</div>
-				</div>
 					</div>
-		</div>
-							</div>
+				</div>
+			</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-4b1b3b8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4b1b3b8" data-element_type="section">
+	</div>
+</header> <!-- /.c-page-header -->
+<section id="top"
+	class="l-main__content l-grid l-grid--7-col u-shift--left--1-col--at-xxlarge l-grid-wrap--6-of-7 u-spacing--double--until-xxlarge u-padding--zero--sides">
+	<article
+		class="c-article l-grid-item l-grid-item--l--4-col l-grid-item--xxl--3-col post-663 page type-page status-publish hentry">
+		<div class="c-article__body">
+			<div class="text u-spacing">
+				<nav class="c-breadcrumbs" role="navigation">
+				</nav>
+				<div data-elementor-type="wp-post" data-elementor-id="663" class="elementor elementor-663"
+					data-elementor-post-type="page">
+					<section
+						class="elementor-section elementor-top-section elementor-element elementor-element-fccb9ff elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+						data-id="fccb9ff" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f06738a" data-id="f06738a" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-485b71e elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="485b71e" data-element_type="widget" data-widget_type="divider.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-divider">
-			<span class="elementor-divider-separator">
-						</span>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
+							<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-90f129d"
+								data-id="90f129d" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+									<div class="elementor-element elementor-element-e4fea71 elementor-position-right elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+										data-id="e4fea71" data-element_type="widget"
+										data-widget_type="image-box.default">
+										<div class="elementor-widget-container">
+											<div class="elementor-image-box-wrapper">
+												<img src="assets/images/teacher-children.jpg" width="50%" />
+
+												<div class="elementor-image-box-content">
+													<h3 class="elementor-image-box-title">Children's, Teacher</h3>
+													<p class="elementor-image-box-description">email@gmail.com</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
-		</section>
+						</div>
+					</section>
+					<section
+						class="elementor-section elementor-top-section elementor-element elementor-element-0b485fa elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+						data-id="0b485fa" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9242c17"
+								data-id="9242c17" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+									<div class="elementor-element elementor-element-abc4146 elementor-position-top elementor-widget elementor-widget-image-box"
+										data-id="abc4146" data-element_type="widget"
+										data-widget_type="image-box.default">
+										<div class="elementor-widget-container">
+											<div class="elementor-image-box-wrapper">
+												<figure class="elementor-image-box-img"><img decoding="async"
+														data-attachment-id="8073"
+														data-permalink="https://sidadventist.org/childrens-ministries/childrensmin-logo-vector/"
+														data-orig-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vector.png?fit=736%2C374&amp;ssl=1"
+														data-orig-size="736,374" data-comments-opened="0"
+														data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}"
+														data-image-title="ChildrensMin-logo-vector"
+														data-image-description="" data-image-caption=""
+														data-medium-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vector.png?fit=300%2C152&amp;ssl=1"
+														data-large-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vector.png?fit=736%2C374&amp;ssl=1"
+														width="736" height="374"
+														src="../../i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vectorc6ed.png?fit=736%2C374&amp;ssl=1"
+														class="attachment-large size-large wp-image-8073" alt=""
+														data-attachment-id="8073"
+														data-permalink="https://sidadventist.org/childrens-ministries/childrensmin-logo-vector/"
+														data-orig-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vector.png?fit=736%2C374&amp;ssl=1"
+														data-orig-size="736,374" data-comments-opened="0"
+														data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}"
+														data-image-title="ChildrensMin-logo-vector"
+														data-image-description="" data-image-caption=""
+														data-medium-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vector.png?fit=300%2C152&amp;ssl=1"
+														data-large-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vector.png?fit=736%2C374&amp;ssl=1"
+														srcset="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vector.png?w=736&amp;ssl=1 736w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vector.png?resize=300%2C152&amp;ssl=1 300w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vector.png?resize=350%2C178&amp;ssl=1 350w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vector.png?resize=700%2C356&amp;ssl=1 700w"
+														sizes="(max-width: 736px) 100vw, 736px" /></figure>
+												<div class="elementor-image-box-content">
+													<p class="elementor-image-box-description">Adventist Children’s
+														Ministries is about developing the faith of children ages birth
+														to fourteen.
 
+														While Sabbath School provides for religious education once a
+														week, Children’s Ministries looks at the whole child and seeks
+														to provide multiple ministries that will lead children to Jesus
+														and disciple them in their daily walk with Him.
 
+														The mission of the Children’s Ministries Department is to
+														nurture children into a loving, serving relationship with Jesus.
+														And that every child in the world will be invited to know Jesus
+														Christ and accept Him as his/her personal Friend and Savior.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
-		        <div class="u-spacing--double u-space--double--top">
-                                                <div class="c-media-block c-block c-media-block__row c-block__row l-grid--7-col l-grid-wrap l-standard-break">
-      <div class="c-media-block__image c-block__image l-grid-item l-grid-item--2-col l-grid-item--m--1-col l-grid-item--xl--1-col u-padding--zero--sides  ">
-      <div class="c-block__image-wrap ">
-                              <img src="../../i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/egw_ellenbb05.jpg?resize=200%2C200&amp;ssl=1" itemprop="image" alt="" />
-                        </div>
-    </div> <!-- c-media-block__image -->
-    <div class="c-media-block__content c-block__content u-spacing l-grid-item l-grid-item--4-col l-grid-item--m--3-col">
-    <div class="u-spacing c-block__group c-media-block__group u-flex--justify-start">
-      <div class="u-spacing u-width--100p">
-                          <h3 class="c-media-block__title c-block__title u-theme--color--darker u-font--primary--m ">
-                          <a href="egw-resources-for-children/index.html" class="c-block__title-link u-theme--link-hover--dark">
-                                        EGW Resources for Children
-                          </a>
-                      </h3>
-                          <p class="c-media-block__description c-block__description">
-            Ellen G. White She was a woman of remarkable spiritual gifts who lived most of her life during the nineteenth century (1827-1915), yet through her writings she is still making a revolutionary impact on millions of people around the world.           </p>
-              </div>
-                             <a href="egw-resources-for-children/index.html" class="c-block__button o-button o-button--outline"><span class="u-icon u-icon--m u-path-fill--base u-space--half--right"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><title>Long right arrow</title><path d="M18.29,8.59l-3.5-3.5L13.38,6.5,15.88,9H.29v2H15.88l-2.5,2.5,1.41,1.41,3.5-3.5L19.71,10Z" fill="#9b9b9b"/></svg>
-</span>Read More</a>
-                </div>
-  </div> <!-- .c-media-block__content -->
-</div> <!-- .c-media-block -->
-                              </div>
+						</div>
+					</section>
+					<section
+						class="elementor-section elementor-top-section elementor-element elementor-element-83610e8 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+						data-id="83610e8" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3d50480"
+								data-id="3d50480" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+									<div class="elementor-element elementor-element-056b5f7 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+										data-id="056b5f7" data-element_type="widget" data-widget_type="divider.default">
+										<div class="elementor-widget-container">
+											<div class="elementor-divider">
+												<span class="elementor-divider-separator">
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section
+						class="elementor-section elementor-top-section elementor-element elementor-element-d300545 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+						data-id="d300545" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-54414a6"
+								data-id="54414a6" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+									<div class="elementor-element elementor-element-b3d8866 elementor-widget elementor-widget-image"
+										data-id="b3d8866" data-element_type="widget" data-widget_type="image.default">
+										<div class="elementor-widget-container">
+											<img decoding="async" data-attachment-id="8075"
+												data-permalink="https://sidadventist.org/childrens-ministries/25th-chm2020-vector/"
+												data-orig-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?fit=2200%2C1700&amp;ssl=1"
+												data-orig-size="2200,1700" data-comments-opened="0"
+												data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}"
+												data-image-title="25th-CHM2020-Vector" data-image-description=""
+												data-image-caption=""
+												data-medium-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?fit=300%2C232&amp;ssl=1"
+												data-large-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?fit=1024%2C791&amp;ssl=1"
+												width="1024" height="791"
+												src="../../i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector23dc.jpg?fit=1024%2C791&amp;ssl=1"
+												class="attachment-large size-large wp-image-8075" alt=""
+												srcset="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?w=2200&amp;ssl=1 2200w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?resize=300%2C232&amp;ssl=1 300w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?resize=1024%2C791&amp;ssl=1 1024w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?resize=768%2C593&amp;ssl=1 768w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?resize=1536%2C1187&amp;ssl=1 1536w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?resize=2048%2C1583&amp;ssl=1 2048w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?resize=350%2C270&amp;ssl=1 350w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?resize=700%2C541&amp;ssl=1 700w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?resize=900%2C695&amp;ssl=1 900w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?resize=1100%2C850&amp;ssl=1 1100w"
+												sizes="(max-width: 1000px) 100vw, 1000px" data-attachment-id="8075"
+												data-permalink="https://sidadventist.org/childrens-ministries/25th-chm2020-vector/"
+												data-orig-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?fit=2200%2C1700&amp;ssl=1"
+												data-orig-size="2200,1700" data-comments-opened="0"
+												data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}"
+												data-image-title="25th-CHM2020-Vector" data-image-description=""
+												data-image-caption=""
+												data-medium-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?fit=300%2C232&amp;ssl=1"
+												data-large-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector.jpg?fit=1024%2C791&amp;ssl=1" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section
+						class="elementor-section elementor-top-section elementor-element elementor-element-9b35474 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+						data-id="9b35474" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3ab43b4"
+								data-id="3ab43b4" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+									<div class="elementor-element elementor-element-60f27b8 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+										data-id="60f27b8" data-element_type="widget" data-widget_type="divider.default">
+										<div class="elementor-widget-container">
+											<div class="elementor-divider">
+												<span class="elementor-divider-separator">
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section
+						class="elementor-section elementor-top-section elementor-element elementor-element-6403861 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+						data-id="6403861" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b869f47"
+								data-id="b869f47" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+									<div class="elementor-element elementor-element-5c57c10 elementor-cta--skin-classic elementor-animated-content elementor-bg-transform elementor-bg-transform-zoom-in elementor-widget elementor-widget-call-to-action"
+										data-id="5c57c10" data-element_type="widget"
+										data-widget_type="call-to-action.default">
+										<div class="elementor-widget-container">
+											<div class="elementor-cta">
+												<div class="elementor-cta__bg-wrapper">
+													<div class="elementor-cta__bg elementor-bg"
+														style="background-image: url(../../i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/Christ-Children-figure-22cdb.png?fit=1024%2C393&amp;ssl=1);"
+														role="img" aria-label="Christ-Children-figure-2"></div>
+													<div class="elementor-cta__bg-overlay"></div>
+												</div>
 
-              </div>
-    </div>
-  </article>
-      <div class="c-sidebar l-grid-item l-grid-item--l--2-col l-grid-item--xl--2-col u-padding--zero--sides">
-      <div class="u-spacing--double u-padding--right">
-        <section class="c-widget c-media_image-10 c-widget_media_image o-link-wrapper--underline u-spacing u-background-color--gray--light u-padding u-theme--border-color--darker u-border--left can-be--dark-dark"><div class="c-block__heading-title u-theme--color--darker">READ MORE</div><a href="letters-from-parents-to-a-child/index.html"><img width="1080" height="1080" src="../../i0.wp.com/sidadventist.org/wp-content/uploads/2020/10/Letters-to-my-Child-October-20206bdb.png?fit=1080%2C1080&amp;ssl=1" class="image wp-image-8362  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" title="READ MORE" decoding="async" loading="lazy" srcset="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/10/Letters-to-my-Child-October-2020.png?w=1080&amp;ssl=1 1080w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/10/Letters-to-my-Child-October-2020.png?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/10/Letters-to-my-Child-October-2020.png?resize=1024%2C1024&amp;ssl=1 1024w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/10/Letters-to-my-Child-October-2020.png?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/10/Letters-to-my-Child-October-2020.png?resize=768%2C768&amp;ssl=1 768w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/10/Letters-to-my-Child-October-2020.png?resize=350%2C350&amp;ssl=1 350w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/10/Letters-to-my-Child-October-2020.png?resize=700%2C700&amp;ssl=1 700w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/10/Letters-to-my-Child-October-2020.png?resize=900%2C900&amp;ssl=1 900w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/10/Letters-to-my-Child-October-2020.png?resize=200%2C200&amp;ssl=1 200w" sizes="(max-width: 1080px) 100vw, 1080px" data-attachment-id="8362" data-permalink="https://sidadventist.org/letters-to-my-child-october-2020/" data-orig-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/10/Letters-to-my-Child-October-2020.png?fit=1080%2C1080&amp;ssl=1" data-orig-size="1080,1080" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Letters to my Child &#8211; October 2020" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/10/Letters-to-my-Child-October-2020.png?fit=300%2C300&amp;ssl=1" data-large-file="../../i0.wp.com/sidadventist.org/wp-content/uploads/2020/10/Letters-to-my-Child-October-202052c5.png?fit=1024%2C1024&amp;ssl=1" /></a></section><section class="c-widget c-media_image-13 c-widget_media_image o-link-wrapper--underline u-spacing u-background-color--gray--light u-padding u-theme--border-color--darker u-border--left can-be--dark-dark"><div class="c-block__heading-title u-theme--color--darker">Visit www.children.adventist.org</div><a href="https://www.children.adventist.org/" target="_blank" rel="noopener"><img width="1500" height="1500" src="../../i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/IWG-Christ-Childrend9d1.png?fit=1500%2C1500&amp;ssl=1" class="image wp-image-8077  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" title="Visit www.children.adventist.org" decoding="async" loading="lazy" srcset="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/IWG-Christ-Children.png?w=1500&amp;ssl=1 1500w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/IWG-Christ-Children.png?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/IWG-Christ-Children.png?resize=1024%2C1024&amp;ssl=1 1024w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/IWG-Christ-Children.png?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/IWG-Christ-Children.png?resize=768%2C768&amp;ssl=1 768w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/IWG-Christ-Children.png?resize=350%2C350&amp;ssl=1 350w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/IWG-Christ-Children.png?resize=700%2C700&amp;ssl=1 700w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/IWG-Christ-Children.png?resize=900%2C900&amp;ssl=1 900w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/IWG-Christ-Children.png?resize=1100%2C1100&amp;ssl=1 1100w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/IWG-Christ-Children.png?resize=200%2C200&amp;ssl=1 200w" sizes="(max-width: 1500px) 100vw, 1500px" data-attachment-id="8077" data-permalink="https://sidadventist.org/iwg-christ-children/" data-orig-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/IWG-Christ-Children.png?fit=1500%2C1500&amp;ssl=1" data-orig-size="1500,1500" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="IWG-Christ-Children" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/IWG-Christ-Children.png?fit=300%2C300&amp;ssl=1" data-large-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/IWG-Christ-Children.png?fit=1024%2C1024&amp;ssl=1" /></a></section><section class="c-widget c-media_image-12 c-widget_media_image o-link-wrapper--underline u-spacing u-background-color--gray--light u-padding u-theme--border-color--darker u-border--left can-be--dark-dark"><div class="c-block__heading-title u-theme--color--darker">Children&#8217;s Sabbath</div><a href="https://sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath.pdf" target="_blank" rel="noopener"><img width="2232" height="3300" src="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?fit=2232%2C3300&amp;ssl=1" class="image wp-image-7847  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" title="Children&#039;s Sabbath" decoding="async" loading="lazy" srcset="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?w=2232&amp;ssl=1 2232w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?resize=203%2C300&amp;ssl=1 203w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?resize=693%2C1024&amp;ssl=1 693w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?resize=768%2C1135&amp;ssl=1 768w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?resize=1039%2C1536&amp;ssl=1 1039w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?resize=1385%2C2048&amp;ssl=1 1385w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?resize=350%2C517&amp;ssl=1 350w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?resize=700%2C1035&amp;ssl=1 700w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?resize=900%2C1331&amp;ssl=1 900w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?resize=1100%2C1626&amp;ssl=1 1100w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?w=2000&amp;ssl=1 2000w" sizes="(max-width: 2232px) 100vw, 2232px" data-attachment-id="7847" data-permalink="https://sidadventist.org/childrens-sabbath-posterpng/" data-orig-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?fit=2232%2C3300&amp;ssl=1" data-orig-size="2232,3300" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Childrens Sabbath posterpng" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?fit=203%2C300&amp;ssl=1" data-large-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?fit=693%2C1024&amp;ssl=1" /></a></section><section class="c-widget c-sow-video-6 c-widget_sow-video o-link-wrapper--underline u-spacing u-background-color--gray--light u-padding u-theme--border-color--darker u-border--left can-be--dark-dark"><div
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section
+						class="elementor-section elementor-top-section elementor-element elementor-element-4b1b3b8 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+						data-id="4b1b3b8" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f06738a"
+								data-id="f06738a" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+									<div class="elementor-element elementor-element-485b71e elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+										data-id="485b71e" data-element_type="widget" data-widget_type="divider.default">
+										<div class="elementor-widget-container">
+											<div class="elementor-divider">
+												<span class="elementor-divider-separator">
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
 
-			class="so-widget-sow-video so-widget-sow-video-default-f379b959fc93"
 
-		><div class="c-block__heading-title u-theme--color--darker">HisLoveLinks Ep 04 Love Advocacy for Children</div>
-<div class="sow-video-wrapper no-controls">
-			<iframe title="HisLoveLinks   Ep 04   Love Advocacy for Children" width="640" height="360" src="https://www.youtube.com/embed/K1vgUa-MOI8?feature=oembed&amp;enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>	</div>
-</div></section><section class="c-widget c-media_image-14 c-widget_media_image o-link-wrapper--underline u-spacing u-background-color--gray--light u-padding u-theme--border-color--darker u-border--left can-be--dark-dark"><div class="c-block__heading-title u-theme--color--darker">ORGANIZING CHILDREN&#8217;S MINISTRIES IN THE LOCAL CHURCH</div><a href="https://children.adventist.org/organizing-childrens-ministries-in-the-local-church" target="_blank" rel="noopener"><img width="200" height="262" src="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/01/childcover.jpg?fit=200%2C262&amp;ssl=1" class="image wp-image-6724  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" title="ORGANIZING CHILDREN&#039;S MINISTRIES IN THE LOCAL CHURCH" decoding="async" loading="lazy" data-attachment-id="6724" data-permalink="https://sidadventist.org/childrens-ministries/childcover/" data-orig-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/01/childcover.jpg?fit=200%2C262&amp;ssl=1" data-orig-size="200,262" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="childcover" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/01/childcover.jpg?fit=200%2C262&amp;ssl=1" data-large-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/01/childcover.jpg?fit=200%2C262&amp;ssl=1" /></a></section><section class="c-widget c-media_image-15 c-widget_media_image o-link-wrapper--underline u-spacing u-background-color--gray--light u-padding u-theme--border-color--darker u-border--left can-be--dark-dark"><div class="c-block__heading-title u-theme--color--darker">PASTORS &#038; ELDERS HANDBOOK FOR CHILDREN&#8217;S MINISTRIES</div><a href="https://children.adventist.org/pastors-elders-handbook" target="_blank" rel="noopener"><img width="194" height="300" src="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/01/pastorsandeldershandbook.jpg?fit=194%2C300&amp;ssl=1" class="image wp-image-6725  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" title="PASTORS &amp; ELDERS HANDBOOK FOR CHILDREN&#039;S MINISTRIES" decoding="async" loading="lazy" srcset="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/01/pastorsandeldershandbook.jpg?w=500&amp;ssl=1 500w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/01/pastorsandeldershandbook.jpg?resize=194%2C300&amp;ssl=1 194w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/01/pastorsandeldershandbook.jpg?resize=350%2C541&amp;ssl=1 350w" sizes="(max-width: 194px) 100vw, 194px" data-attachment-id="6725" data-permalink="https://sidadventist.org/childrens-ministries/pastorsandeldershandbook/" data-orig-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/01/pastorsandeldershandbook.jpg?fit=500%2C773&amp;ssl=1" data-orig-size="500,773" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="pastorsandeldershandbook" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/01/pastorsandeldershandbook.jpg?fit=194%2C300&amp;ssl=1" data-large-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/01/pastorsandeldershandbook.jpg?fit=500%2C773&amp;ssl=1" /></a></section>      </div>
-    </div> <!-- /.c-sidebar -->
-  </section>
-          </main> <!-- /.l-main -->
+				</div>
+				<div class="u-spacing--double u-space--double--top">
+					<div
+						class="c-media-block c-block c-media-block__row c-block__row l-grid--7-col l-grid-wrap l-standard-break">
+						<div
+							class="c-media-block__image c-block__image l-grid-item l-grid-item--2-col l-grid-item--m--1-col l-grid-item--xl--1-col u-padding--zero--sides  ">
+							<div class="c-block__image-wrap ">
+								<img src="../../i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/egw_ellenbb05.jpg?resize=200%2C200&amp;ssl=1"
+									itemprop="image" alt="" />
+							</div>
+						</div> <!-- c-media-block__image -->
+						<div
+							class="c-media-block__content c-block__content u-spacing l-grid-item l-grid-item--4-col l-grid-item--m--3-col">
+							<div class="u-spacing c-block__group c-media-block__group u-flex--justify-start">
+								<div class="u-spacing u-width--100p">
+									<h3
+										class="c-media-block__title c-block__title u-theme--color--darker u-font--primary--m ">
+										<a href="egw-resources-for-children/index.html"
+											class="c-block__title-link u-theme--link-hover--dark">
+											EGW Resources for Children
+										</a>
+									</h3>
+									<p class="c-media-block__description c-block__description">
+										Ellen G. White She was a woman of remarkable spiritual gifts who lived most of
+										her life during the nineteenth century (1827-1915), yet through her writings she
+										is still making a revolutionary impact on millions of people around the world.
+									</p>
+								</div>
+								<a href="egw-resources-for-children/index.html"
+									class="c-block__button o-button o-button--outline"><span
+										class="u-icon u-icon--m u-path-fill--base u-space--half--right"><svg
+											xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+											<title>Long right arrow</title>
+											<path
+												d="M18.29,8.59l-3.5-3.5L13.38,6.5,15.88,9H.29v2H15.88l-2.5,2.5,1.41,1.41,3.5-3.5L19.71,10Z"
+												fill="#9b9b9b" />
+										</svg>
+									</span>Read More</a>
+							</div>
+						</div> <!-- .c-media-block__content -->
+					</div> <!-- .c-media-block -->
+				</div>
+
+			</div>
+		</div>
+	</article>
+	<div class="c-sidebar l-grid-item l-grid-item--l--2-col l-grid-item--xl--2-col u-padding--zero--sides">
+		<div class="u-spacing--double u-padding--right">
+
+			<section
+				class="c-widget c-media_image-12 c-widget_media_image o-link-wrapper--underline u-spacing u-background-color--gray--light u-padding u-theme--border-color--darker u-border--left can-be--dark-dark">
+				<div class="c-block__heading-title u-theme--color--darker">Children&#8217;s Sabbath</div><a
+					href="https://sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath.pdf" target="_blank"
+					rel="noopener"><img width="2232" height="3300"
+						src="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?fit=2232%2C3300&amp;ssl=1"
+						class="image wp-image-7847  attachment-full size-full" alt=""
+						style="max-width: 100%; height: auto;" title="Children&#039;s Sabbath" decoding="async"
+						loading="lazy"
+						srcset="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?w=2232&amp;ssl=1 2232w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?resize=203%2C300&amp;ssl=1 203w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?resize=693%2C1024&amp;ssl=1 693w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?resize=768%2C1135&amp;ssl=1 768w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?resize=1039%2C1536&amp;ssl=1 1039w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?resize=1385%2C2048&amp;ssl=1 1385w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?resize=350%2C517&amp;ssl=1 350w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?resize=700%2C1035&amp;ssl=1 700w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?resize=900%2C1331&amp;ssl=1 900w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?resize=1100%2C1626&amp;ssl=1 1100w, https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?w=2000&amp;ssl=1 2000w"
+						sizes="(max-width: 2232px) 100vw, 2232px" data-attachment-id="7847"
+						data-permalink="https://sidadventist.org/childrens-sabbath-posterpng/"
+						data-orig-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?fit=2232%2C3300&amp;ssl=1"
+						data-orig-size="2232,3300" data-comments-opened="0"
+						data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}"
+						data-image-title="Childrens Sabbath posterpng" data-image-description="" data-image-caption=""
+						data-medium-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?fit=203%2C300&amp;ssl=1"
+						data-large-file="https://i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/Childrens-Sabbath-posterpng.png?fit=693%2C1024&amp;ssl=1" /></a>
+			</section>
+		</div>
+	</div> <!-- /.c-sidebar -->
+</section>
+		  </main> <!-- /.l-main -->
 
 
 <?php include "footer.php"; ?>
@@ -218,7 +359,7 @@ The mission of the Children’s Ministries Department is to nurture children int
 
 
 <script src="https://cdn.adventist.org/alps/3/3.12.2/js/script.min.js" type="text/javascript" async></script>
-        		<div id="jp-carousel-loading-overlay">
+				<div id="jp-carousel-loading-overlay">
 			<div id="jp-carousel-loading-wrapper">
 				<span id="jp-carousel-library-loading">&nbsp;</span>
 			</div>
@@ -452,21 +593,21 @@ var wpformsElementorVars = {"captcha_provider":"recaptcha","recaptcha_type":"v3"
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://sidadventist.org/wp-content/plugins/wpforms/assets/js/integrations/elementor/frontend.min.js?ver=1.8.5" id="wpforms-elementor-js"></script>
-      </div> <!-- /.l-content -->
-      <aside class="l-wrap__sabbath l-sabbath js-sticky-parent js-toggle-menu ">
-      <div class="l-sabbath__logo js-sticky">
-      <div class="l-sabbath__logo--inner ">
-        <div class="l-sabbath__logo-light u-path-fill--white">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 253.71 227.63"><title>Seventh-day Adventist logo mark</title><path d="M67.68,120.38c-.1-9.91,2.8-18.41,20.8-36.41l39-39c10.4-10.4,19.1-19.29,19.1-29V.67c0-.89-1.1-.89-1.2,0-2.6,12.4-7.5,17.3-17.8,27.61L82.28,73.47c-17.1,17-19.5,35.1-15.8,46.91C66.78,121.38,67.68,121.47,67.68,120.38Zm64.2,38.9c0,.89,1,.89,1.2,0,2.6-12.5,7.6-17.4,17.8-27.61L166,116.78c19.8-19.9,10.7-39-.9-44.31-1-.5-1.4.31-.6,1,9.3,8,6.5,21.5-5.2,33.2L151,115c-10.4,10.31-19.1,19.2-19.1,29Zm81.8,26.6L168,178.17l-17.1,17.11c-10.4,10.39-19,19.3-19,29V227c0,.7.9.9,1.2.11,3.2-8.7,13.9-18.11,33.5-14.8,0,0,85.4,14.8,86.1,14.8a.9.9,0,0,0,1-.61.79.79,0,0,0-.2-.8c-.3-.39-39.8-39.8-39.8-39.8Zm-107.5,1h15a.66.66,0,0,0,.6-.6c0-7.9-6-13.31-30-9.2L40,186S.58,225.37.28,225.78a.79.79,0,0,0-.1,1.1.81.81,0,0,0,.8.2c.7-.11,86.1-14.8,86.1-14.8,19.6-3.31,30.3,6,33.5,14.8.3.8,1.2.7,1.2-.11v-29.5a.66.66,0,0,0-.6-.6l-15,.1a.64.64,0,0,1-.6-.6v-8.9a.65.65,0,0,1,.6-.6Zm26.8,25.9a36.3,36.3,0,0,1,6.9-15.81h-7.5a.65.65,0,0,0-.6.61v15.2c0,.89,1.1.89,1.2,0Zm13.6-158.6c0-.91-1.1-.91-1.2,0-2.6,12.39-7.5,17.29-17.8,27.6l-39.8,39.69c-19.8,19.81-10.7,39,.9,44.31,1,.5,1.4-.4.6-1-9.3-8-6.5-21.61,5.2-33.2l33-33c10.4-10.4,19.1-19.3,19.1-29Zm-19.1,17.49c10.4-10.3,19-19.2,19.1-29V27.27c0-.9-1.1-.9-1.2,0-2.6,12.4-7.5,17.4-17.8,27.7L86.68,95.78c-19.8,19.8-23.3,39-13.2,51.4.7.8,1.4.3,1-.7-6.7-15.1,9.3-31.1,16.9-38.7Zm37.6,82.5-14.3,14.2c-6.5,6.5-12.3,12.4-15.8,18.4h14.1l1.7-1.7,20.5-20.5c17.1-16.9,19.5-35,15.8-46.8-.3-1-1.2-1.1-1.2,0,.1,9.9-2.8,18.4-20.8,36.4Zm-2.8-24-11.4,11.5c-10.4,10.4-19.1,19.4-19.1,29.11v15.3c0,.89,1.1.89,1.2,0,2.6-12.4,7.5-17.4,17.8-27.7L167,142.17c19.8-19.8,23.3-39,13.2-51.4-.7-.8-1.4-.3-1,.7C185.88,106.57,169.88,122.57,162.28,130.17Zm83.5,68.2h1.1l1.7,3h1.5l-2-3.3a2,2,0,0,0,1.3-2c0-1.5-.8-2.2-2.7-2.2h-2.2v7.5h1.3v-3Zm0-3.5h.8c1,0,1.4.3,1.4,1.2,0,.7-.5,1.2-1.4,1.2h-.9v-2.4Zm1,9a6.3,6.3,0,1,0-6.3-6.3,6.08,6.08,0,0,0,5.87,6.3Zm0-11.7a5.4,5.4,0,1,1,0,10.8,5.31,5.31,0,0,1-5.4-5.23h0v-.16a5.24,5.24,0,0,1,5.11-5.39h.29Z"/></svg>
-                  </div>
-        <div class="l-sabbath__logo-dark u-theme--path-fill--base">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 253.71 227.63"><title>Seventh-day Adventist logo mark</title><path d="M67.68,120.38c-.1-9.91,2.8-18.41,20.8-36.41l39-39c10.4-10.4,19.1-19.29,19.1-29V.67c0-.89-1.1-.89-1.2,0-2.6,12.4-7.5,17.3-17.8,27.61L82.28,73.47c-17.1,17-19.5,35.1-15.8,46.91C66.78,121.38,67.68,121.47,67.68,120.38Zm64.2,38.9c0,.89,1,.89,1.2,0,2.6-12.5,7.6-17.4,17.8-27.61L166,116.78c19.8-19.9,10.7-39-.9-44.31-1-.5-1.4.31-.6,1,9.3,8,6.5,21.5-5.2,33.2L151,115c-10.4,10.31-19.1,19.2-19.1,29Zm81.8,26.6L168,178.17l-17.1,17.11c-10.4,10.39-19,19.3-19,29V227c0,.7.9.9,1.2.11,3.2-8.7,13.9-18.11,33.5-14.8,0,0,85.4,14.8,86.1,14.8a.9.9,0,0,0,1-.61.79.79,0,0,0-.2-.8c-.3-.39-39.8-39.8-39.8-39.8Zm-107.5,1h15a.66.66,0,0,0,.6-.6c0-7.9-6-13.31-30-9.2L40,186S.58,225.37.28,225.78a.79.79,0,0,0-.1,1.1.81.81,0,0,0,.8.2c.7-.11,86.1-14.8,86.1-14.8,19.6-3.31,30.3,6,33.5,14.8.3.8,1.2.7,1.2-.11v-29.5a.66.66,0,0,0-.6-.6l-15,.1a.64.64,0,0,1-.6-.6v-8.9a.65.65,0,0,1,.6-.6Zm26.8,25.9a36.3,36.3,0,0,1,6.9-15.81h-7.5a.65.65,0,0,0-.6.61v15.2c0,.89,1.1.89,1.2,0Zm13.6-158.6c0-.91-1.1-.91-1.2,0-2.6,12.39-7.5,17.29-17.8,27.6l-39.8,39.69c-19.8,19.81-10.7,39,.9,44.31,1,.5,1.4-.4.6-1-9.3-8-6.5-21.61,5.2-33.2l33-33c10.4-10.4,19.1-19.3,19.1-29Zm-19.1,17.49c10.4-10.3,19-19.2,19.1-29V27.27c0-.9-1.1-.9-1.2,0-2.6,12.4-7.5,17.4-17.8,27.7L86.68,95.78c-19.8,19.8-23.3,39-13.2,51.4.7.8,1.4.3,1-.7-6.7-15.1,9.3-31.1,16.9-38.7Zm37.6,82.5-14.3,14.2c-6.5,6.5-12.3,12.4-15.8,18.4h14.1l1.7-1.7,20.5-20.5c17.1-16.9,19.5-35,15.8-46.8-.3-1-1.2-1.1-1.2,0,.1,9.9-2.8,18.4-20.8,36.4Zm-2.8-24-11.4,11.5c-10.4,10.4-19.1,19.4-19.1,29.11v15.3c0,.89,1.1.89,1.2,0,2.6-12.4,7.5-17.4,17.8-27.7L167,142.17c19.8-19.8,23.3-39,13.2-51.4-.7-.8-1.4-.3-1,.7C185.88,106.57,169.88,122.57,162.28,130.17Zm83.5,68.2h1.1l1.7,3h1.5l-2-3.3a2,2,0,0,0,1.3-2c0-1.5-.8-2.2-2.7-2.2h-2.2v7.5h1.3v-3Zm0-3.5h.8c1,0,1.4.3,1.4,1.2,0,.7-.5,1.2-1.4,1.2h-.9v-2.4Zm1,9a6.3,6.3,0,1,0-6.3-6.3,6.08,6.08,0,0,0,5.87,6.3Zm0-11.7a5.4,5.4,0,1,1,0,10.8,5.31,5.31,0,0,1-5.4-5.23h0v-.16a5.24,5.24,0,0,1,5.11-5.39h.29Z"/></svg>
-                  </div>
-      </div>
-    </div>
-    <div class="l-sabbath__overlay u-theme--background-color--base"></div>
+	  </div> <!-- /.l-content -->
+	  <aside class="l-wrap__sabbath l-sabbath js-sticky-parent js-toggle-menu ">
+	  <div class="l-sabbath__logo js-sticky">
+	  <div class="l-sabbath__logo--inner ">
+		<div class="l-sabbath__logo-light u-path-fill--white">
+					  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 253.71 227.63"><title>Seventh-day Adventist logo mark</title><path d="M67.68,120.38c-.1-9.91,2.8-18.41,20.8-36.41l39-39c10.4-10.4,19.1-19.29,19.1-29V.67c0-.89-1.1-.89-1.2,0-2.6,12.4-7.5,17.3-17.8,27.61L82.28,73.47c-17.1,17-19.5,35.1-15.8,46.91C66.78,121.38,67.68,121.47,67.68,120.38Zm64.2,38.9c0,.89,1,.89,1.2,0,2.6-12.5,7.6-17.4,17.8-27.61L166,116.78c19.8-19.9,10.7-39-.9-44.31-1-.5-1.4.31-.6,1,9.3,8,6.5,21.5-5.2,33.2L151,115c-10.4,10.31-19.1,19.2-19.1,29Zm81.8,26.6L168,178.17l-17.1,17.11c-10.4,10.39-19,19.3-19,29V227c0,.7.9.9,1.2.11,3.2-8.7,13.9-18.11,33.5-14.8,0,0,85.4,14.8,86.1,14.8a.9.9,0,0,0,1-.61.79.79,0,0,0-.2-.8c-.3-.39-39.8-39.8-39.8-39.8Zm-107.5,1h15a.66.66,0,0,0,.6-.6c0-7.9-6-13.31-30-9.2L40,186S.58,225.37.28,225.78a.79.79,0,0,0-.1,1.1.81.81,0,0,0,.8.2c.7-.11,86.1-14.8,86.1-14.8,19.6-3.31,30.3,6,33.5,14.8.3.8,1.2.7,1.2-.11v-29.5a.66.66,0,0,0-.6-.6l-15,.1a.64.64,0,0,1-.6-.6v-8.9a.65.65,0,0,1,.6-.6Zm26.8,25.9a36.3,36.3,0,0,1,6.9-15.81h-7.5a.65.65,0,0,0-.6.61v15.2c0,.89,1.1.89,1.2,0Zm13.6-158.6c0-.91-1.1-.91-1.2,0-2.6,12.39-7.5,17.29-17.8,27.6l-39.8,39.69c-19.8,19.81-10.7,39,.9,44.31,1,.5,1.4-.4.6-1-9.3-8-6.5-21.61,5.2-33.2l33-33c10.4-10.4,19.1-19.3,19.1-29Zm-19.1,17.49c10.4-10.3,19-19.2,19.1-29V27.27c0-.9-1.1-.9-1.2,0-2.6,12.4-7.5,17.4-17.8,27.7L86.68,95.78c-19.8,19.8-23.3,39-13.2,51.4.7.8,1.4.3,1-.7-6.7-15.1,9.3-31.1,16.9-38.7Zm37.6,82.5-14.3,14.2c-6.5,6.5-12.3,12.4-15.8,18.4h14.1l1.7-1.7,20.5-20.5c17.1-16.9,19.5-35,15.8-46.8-.3-1-1.2-1.1-1.2,0,.1,9.9-2.8,18.4-20.8,36.4Zm-2.8-24-11.4,11.5c-10.4,10.4-19.1,19.4-19.1,29.11v15.3c0,.89,1.1.89,1.2,0,2.6-12.4,7.5-17.4,17.8-27.7L167,142.17c19.8-19.8,23.3-39,13.2-51.4-.7-.8-1.4-.3-1,.7C185.88,106.57,169.88,122.57,162.28,130.17Zm83.5,68.2h1.1l1.7,3h1.5l-2-3.3a2,2,0,0,0,1.3-2c0-1.5-.8-2.2-2.7-2.2h-2.2v7.5h1.3v-3Zm0-3.5h.8c1,0,1.4.3,1.4,1.2,0,.7-.5,1.2-1.4,1.2h-.9v-2.4Zm1,9a6.3,6.3,0,1,0-6.3-6.3,6.08,6.08,0,0,0,5.87,6.3Zm0-11.7a5.4,5.4,0,1,1,0,10.8,5.31,5.31,0,0,1-5.4-5.23h0v-.16a5.24,5.24,0,0,1,5.11-5.39h.29Z"/></svg>
+				  </div>
+		<div class="l-sabbath__logo-dark u-theme--path-fill--base">
+					  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 253.71 227.63"><title>Seventh-day Adventist logo mark</title><path d="M67.68,120.38c-.1-9.91,2.8-18.41,20.8-36.41l39-39c10.4-10.4,19.1-19.29,19.1-29V.67c0-.89-1.1-.89-1.2,0-2.6,12.4-7.5,17.3-17.8,27.61L82.28,73.47c-17.1,17-19.5,35.1-15.8,46.91C66.78,121.38,67.68,121.47,67.68,120.38Zm64.2,38.9c0,.89,1,.89,1.2,0,2.6-12.5,7.6-17.4,17.8-27.61L166,116.78c19.8-19.9,10.7-39-.9-44.31-1-.5-1.4.31-.6,1,9.3,8,6.5,21.5-5.2,33.2L151,115c-10.4,10.31-19.1,19.2-19.1,29Zm81.8,26.6L168,178.17l-17.1,17.11c-10.4,10.39-19,19.3-19,29V227c0,.7.9.9,1.2.11,3.2-8.7,13.9-18.11,33.5-14.8,0,0,85.4,14.8,86.1,14.8a.9.9,0,0,0,1-.61.79.79,0,0,0-.2-.8c-.3-.39-39.8-39.8-39.8-39.8Zm-107.5,1h15a.66.66,0,0,0,.6-.6c0-7.9-6-13.31-30-9.2L40,186S.58,225.37.28,225.78a.79.79,0,0,0-.1,1.1.81.81,0,0,0,.8.2c.7-.11,86.1-14.8,86.1-14.8,19.6-3.31,30.3,6,33.5,14.8.3.8,1.2.7,1.2-.11v-29.5a.66.66,0,0,0-.6-.6l-15,.1a.64.64,0,0,1-.6-.6v-8.9a.65.65,0,0,1,.6-.6Zm26.8,25.9a36.3,36.3,0,0,1,6.9-15.81h-7.5a.65.65,0,0,0-.6.61v15.2c0,.89,1.1.89,1.2,0Zm13.6-158.6c0-.91-1.1-.91-1.2,0-2.6,12.39-7.5,17.29-17.8,27.6l-39.8,39.69c-19.8,19.81-10.7,39,.9,44.31,1,.5,1.4-.4.6-1-9.3-8-6.5-21.61,5.2-33.2l33-33c10.4-10.4,19.1-19.3,19.1-29Zm-19.1,17.49c10.4-10.3,19-19.2,19.1-29V27.27c0-.9-1.1-.9-1.2,0-2.6,12.4-7.5,17.4-17.8,27.7L86.68,95.78c-19.8,19.8-23.3,39-13.2,51.4.7.8,1.4.3,1-.7-6.7-15.1,9.3-31.1,16.9-38.7Zm37.6,82.5-14.3,14.2c-6.5,6.5-12.3,12.4-15.8,18.4h14.1l1.7-1.7,20.5-20.5c17.1-16.9,19.5-35,15.8-46.8-.3-1-1.2-1.1-1.2,0,.1,9.9-2.8,18.4-20.8,36.4Zm-2.8-24-11.4,11.5c-10.4,10.4-19.1,19.4-19.1,29.11v15.3c0,.89,1.1.89,1.2,0,2.6-12.4,7.5-17.4,17.8-27.7L167,142.17c19.8-19.8,23.3-39,13.2-51.4-.7-.8-1.4-.3-1,.7C185.88,106.57,169.88,122.57,162.28,130.17Zm83.5,68.2h1.1l1.7,3h1.5l-2-3.3a2,2,0,0,0,1.3-2c0-1.5-.8-2.2-2.7-2.2h-2.2v7.5h1.3v-3Zm0-3.5h.8c1,0,1.4.3,1.4,1.2,0,.7-.5,1.2-1.4,1.2h-.9v-2.4Zm1,9a6.3,6.3,0,1,0-6.3-6.3,6.08,6.08,0,0,0,5.87,6.3Zm0-11.7a5.4,5.4,0,1,1,0,10.8,5.31,5.31,0,0,1-5.4-5.23h0v-.16a5.24,5.24,0,0,1,5.11-5.39h.29Z"/></svg>
+				  </div>
+	  </div>
+	</div>
+	<div class="l-sabbath__overlay u-theme--background-color--base"></div>
   </aside>
-    </div><!-- ./l-wrap -->
+	</div><!-- ./l-wrap -->
   </body>
 
 </html>

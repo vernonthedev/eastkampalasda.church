@@ -1,5 +1,7 @@
 <?php
 include'config.php';
+// Make sure you start session for the administrator before displaying any view to the user
+session_start();
 
 $view_inquiry = "SELECT * FROM announcements";
 $run_query = $conn->prepare($view_inquiry);

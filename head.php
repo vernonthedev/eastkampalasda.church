@@ -82,7 +82,7 @@ body{--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(13
 <script type="text/javascript" src="/wp-content/plugins/alps-gutenberg-blocks/src/front1844.js?ver=fbd31da6a5b3a49d1894a623e73a31e9" id="alps_gutenberg_front-js"></script>
 <script type="text/javascript" src="/wp-content/plugins/google-analyticator/external-tracking.minb134.js?ver=6.5.7" id="ga-external-tracking-js"></script>
 <link rel="https://api.w.org/" href="wp-json/index.html" /><link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/1385.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
-
+<link rel="stylesheet" type="text/css" href="mycss/main.css" media="all">
 <link rel='shortlink' href='https://wp.me/P7sauV-ml' />
 <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed8376.json?url=https%3A%2F%2Feastkampalasda.church%2F" />
 <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed324d?url=https%3A%2F%2Feastkampalasda.church%2F&amp;format=xml" />
@@ -223,9 +223,54 @@ input[type="radio"]:checked:after {
                 inset 0 2px 2px hsla(0,0%,100%,.4),
                 0 1px 1px hsla(0,0%,100%,.8),
                 0 0 2px 2px hsla(0,70%,70%,.4);
-}</style>
+}
+
+
+</style>
+
+
+<style>
+	
+html {
+    scroll-behavior: smooth;
+  }
+
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background: #2f557f;        /* color of the tracking area */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #ddd;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #ddd;  /* creates padding around scroll thumb */
+  }
+
+    #backToTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #ddd;
+        color: #2f557f;
+        border: none;
+        border-radius: 10%;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    #backToTopBtn:hover {
+        background-color: black;
+        color: #fff;
+    }
+
+</style>
 
   <link rel="shortcut icon" href="wp-content/themes/alps-wordpress-v3/assets/images/favicon--denim.png">
+
   <link rel="application/font-sfnt" href="wp-content/themes/alps-wordpress-v3/assets/fonts/noto-sans/NotoSans-Italic.ttf">
   <link rel="application/font-sfnt" href="wp-content/themes/alps-wordpress-v3/assets/fonts/noto-sans/NotoSans-Regular.ttf">
   <link rel="application/font-sfnt" href="wp-content/themes/alps-wordpress-v3/assets/fonts/noto-sans/NotoSans-Bold.ttf">
@@ -236,4 +281,6 @@ input[type="radio"]:checked:after {
   <link rel="application/font-sfnt" href="wp-content/themes/alps-wordpress-v3/assets/fonts/noto-serif/NotoSerif-Italic.ttf">
   <link rel="stylesheet" type="text/css" href="assets/cdn.adventist.org/alps/3/3.12.2/css/main-denim.css" media="all">
   <script src="assets/cdn.adventist.org/alps/3/3.12.2/js/head-script.min.js" type="text/javascript" async></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+ 
 </head>

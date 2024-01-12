@@ -1,15 +1,16 @@
 <?php
+
+// $server = 'eastkampalasda.church.mysql';
+// $user = 'eastkampalasda_churchekc_home';
+// $database = 'ekc_home';
+// $password = 'EastSDA@@2024!';
+
 $server = 'localhost';
 $user = 'root';
-$database = 'eastkampala';
-$password = '';
+$database = 'eastkampalasda';
+$password = 'Codezilla@21';
 
 
-
-// $server = 'sql104.infinityfree.com';
-// $user = 'if0_35256086';
-// $database = 'if0_35256086_eastkampala';
-// $password = 'OobD5RJox0R';
 
 // SETTING PDO DSN
 $dsn = 'mysql:host='.$server.';dbname='.$database;

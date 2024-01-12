@@ -1,5 +1,10 @@
 <!--including the file upload management file-->
-<?php include'configs/config-file-upload.php'; ?>
+<?php 
+include'configs/config-file-upload.php';
+include 'config.php';
+// Make sure you start session for the administrator before displaying any view to the user
+session_start();
+ ?>
 
 <!doctype html>
 <html lang="en">

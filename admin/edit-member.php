@@ -1,5 +1,7 @@
 <?php
 include'config.php';
+// Make sure you start session for the administrator before displaying any view to the user
+session_start();
 
 $mem = $_GET["id"];
 $view_member = "SELECT * FROM member_list WHERE member_id =?";

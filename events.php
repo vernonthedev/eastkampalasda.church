@@ -2,6 +2,7 @@
 <html class="u-theme--denim" lang="en-US">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <?php include "head.php"; ?>
+<?php include "loading.php"; ?>
 <?php include "header.php"; ?>
 <?php include "config.php"; ?>
 
@@ -35,7 +36,7 @@ $rows = $run_query->fetchAll();
 <div class="c-page-header__content c-page-header__long__content l-grid-wrap l-grid-wrap--5-of-7 u-shift--left--1-col--at-xxlarge u-border-left--white--at-large">
 <span class="o-kicker u-color--white"></span>
 <h1 class="u-font--primary--xl u-color--white u-font-weight--bold">
-Live Events
+Upcoming Events
 </h1>
 </div>
 </div>
@@ -51,11 +52,6 @@ Live Events
 <div class="c-article__body">
 <div class="text u-spacing--double u-space--double--top">
 <div class="l-grid l-grid--7-col l-grid-item--6-col l-grid-item--m--4-col u-no-gutters">
-
-
-
-
-
 <?php
 //loop through the retrieved programs
 foreach($rows as $row){

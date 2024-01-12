@@ -1,5 +1,7 @@
 <?php
 include'config.php';
+// Make sure you start session for the administrator before displaying any view to the user
+session_start();
 
 $my_inqs = $_GET["id"] ;
 $view_inquiry = "SELECT * FROM contact_inquiry WHERE c_id =?";

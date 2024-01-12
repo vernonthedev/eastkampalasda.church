@@ -1,5 +1,7 @@
 <?php
 include'config.php';
+// Make sure you start session for the administrator before displaying any view to the user
+session_start();
 
 $view_team = "SELECT * FROM member_list";
 $run_query = $conn->prepare($view_team);

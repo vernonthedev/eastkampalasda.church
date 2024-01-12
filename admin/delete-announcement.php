@@ -1,6 +1,8 @@
 
 <?php
 include'config.php';
+// Make sure you start session for the administrator before displaying any view to the user
+session_start();
 
 $recieved_id = $_GET["id"];
 $delete_event = "DELETE FROM announcements WHERE ann_id= ?";

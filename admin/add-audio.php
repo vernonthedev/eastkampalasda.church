@@ -1,5 +1,11 @@
 <!--Include the file that handles the file uploading to the database-->
-<?php include'configs/audio_uploading.php'; ?>
+<?php 
+include'configs/audio_uploading.php'; 
+// Add the db connection file
+include 'config.php';
+// Make sure you start session for the administrator before displaying any view to the user
+session_start();
+?>
 
 <!doctype html>
 <html lang="en">

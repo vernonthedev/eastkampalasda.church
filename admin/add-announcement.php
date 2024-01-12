@@ -1,6 +1,8 @@
 <?php
 //	Including the database connection file
 include 'config.php';
+// Make sure you start session for the administrator before displaying any view to the user
+session_start();
 ?>
 
 
@@ -99,15 +101,20 @@ if (isset($_POST['submit'])) {
     $banner_title = $_POST['ann_title'];
     $banner_msg = $_POST['ann_msg'];
 
-	$insert_announcement = "INSERT INTO announcements(ann_id, ann_title, ann_content) VALUES(?, ?, ?)";
-	$run_query = $conn->prepare($insert_announcement);
-	$success = $run_query->execute(["",$banner_title, $banner_msg]);
+    $insert_announcement = "INSERT INTO announcements (ann_title, ann_content) VALUES (?, ?)";
+try {
+    $run_query = $conn->prepare($insert_announcement);
+    $success = $run_query->execute([$banner_title, $banner_msg]);
 
-	if ($success && $run_query->rowCount() > 0) {
-		echo '<script>swal("Complete", "Announcement Uploaded Successfully", "success");</script>';
-	} else {
-		echo '<script>swal("Failed", "Announcement Not Uploaded Successfully", "error");</script>';
-	}
+    if ($success && $run_query->rowCount() > 0) {
+        echo '<script>swal("Complete", "Announcement Uploaded Successfully", "success");</script>';
+    } else {
+        echo '<script>swal("Failed", "Announcement Not Uploaded Successfully", "error");</script>';
+    }
+} catch (PDOException $e) {
+    echo '<script>swal("Error", "Database Error: ' . $e->getMessage() . '", "error");</script>';
+}
+
 
 }
 ?>

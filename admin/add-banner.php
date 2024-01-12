@@ -1,6 +1,8 @@
 <?php
 //	Include the db connection file
 include'config.php';
+// Make sure you start session for the administrator before displaying any view to the user
+session_start();
 ?>
 
 <!doctype html>

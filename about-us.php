@@ -25,6 +25,7 @@
 </head>
 
     <?php include "head.php";?>
+	<?php include "loading.php"; ?>
     <?php include "header.php";?>
 
 

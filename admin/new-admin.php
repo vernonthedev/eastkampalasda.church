@@ -1,7 +1,8 @@
 <?php
 include "config.php";
-include'style.php';
 session_start();
+include'style.php';
+
 ?>
 
 <!DOCTYPE html>

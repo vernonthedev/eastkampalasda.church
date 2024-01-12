@@ -2,9 +2,16 @@
 <html class="u-theme--denim" lang="en-US">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <?php include "head.php"; ?>
+<?php include "loading.php"; ?>
 <?php include "header.php"; ?>
 
 
+
+<style>
+    input {
+    border-radius: 20px;
+}
+</style>
 
 
 <main class="l-main u-spacing--double u-padding--double--bottom" role="main">
@@ -28,9 +35,12 @@
             class="c-article l-grid-item l-grid-item--l--4-col l-grid-item--xxl--3-col post-67 page type-page status-publish hentry">
             <div class="c-article__body">
                 <div class="text u-spacing">
-                <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15958.792686967196!2d32.6382408!3d0.4446533!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177db502e7023055%3A0xdf4e092e1234396c!2sSDA%20CHURCH%20EAST%20KAMPALA!5e0!3m2!1sen!2sug!4v1701989980087!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+                    <div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15958.792686967196!2d32.6382408!3d0.4446533!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177db502e7023055%3A0xdf4e092e1234396c!2sSDA%20CHURCH%20EAST%20KAMPALA!5e0!3m2!1sen!2sug!4v1701989980087!5m2!1sen!2sug"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                     <h3 class="wp-block-heading" id="address">Address</h3>
                     <p>East Kampala Seventh-Day Adventist Church<br>Kira, Kimwanyi<br>Kampala, Uganda</p>
                     <h3 class="wp-block-heading" id="telephone">Telephone</h3>
@@ -80,8 +90,7 @@
                             data-token="4082f3ce1558e9f6c10eff2c4d528c5d" novalidate="novalidate"><noscript
                                 class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this
                                 form.</noscript>
-                            <div class="wpforms-hidden" id="wpforms-error-noscript">Please enable JavaScript in your
-                                browser to complete this form.</div>
+                           
                             <div class="wpforms-field-container">
                                 <div id="wpforms-1621-field_0-container" class="wpforms-field wpforms-field-name"
                                     data-field-id="0">
@@ -94,40 +103,45 @@
                                                     class="wpforms-field-name-first wpforms-field-required"
                                                     name="wpforms[fields][0][first]"
                                                     aria-errormessage="wpforms-1621-field_0-error" required=""
-                                                    style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;" placeholder="Enter fullname"></div>
+                                                    style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;"
+                                                    placeholder="Enter fullname"></div>
 
-                                                    <br>
+                                            <br>
 
                                             <div class="wpforms-field-row-block wpforms-one-half"><input type="text"
                                                     id="wpforms-1621-field_0-last"
                                                     class="wpforms-field-name-last wpforms-field-required"
                                                     name="wpforms[fields][0][last]"
-                                                    aria-errormessage="wpforms-1621-field_0-last-error"
-                                                    required="true" placeholder="Enter subject title"><label for="wpforms-1621-field_0-last"
-                                                    class="wpforms-field-sublabel after ">Subject(Prayer request, suggestion heading)</label></div><br>
+                                                    aria-errormessage="wpforms-1621-field_0-last-error" required="true"
+                                                    placeholder="Enter subject title"><label
+                                                    for="wpforms-1621-field_0-last"
+                                                    class="wpforms-field-sublabel after ">Subject(Prayer request,
+                                                    suggestion heading)</label></div><br>
                                         </div>
                                     </fieldset>
                                 </div>
                                 <div id="wpforms-1621-field_1-container" class="wpforms-field wpforms-field-email"
-                                    data-field-id="1"><input type="email"
-                                        id="wpforms-1621-field_1" class="wpforms-field-medium wpforms-field-required"
-                                        name="email" spellcheck="false"
-                                        aria-errormessage="wpforms-1621-field_1-error" required="" placeholder="Enter email"></div><br>
+                                    data-field-id="1"><input type="email" id="wpforms-1621-field_1"
+                                        class="wpforms-field-medium wpforms-field-required" name="email"
+                                        spellcheck="false" aria-errormessage="wpforms-1621-field_1-error" required=""
+                                        placeholder="Enter email"></div><br>
 
-                                        <div id="wpforms-1621-field_1-container" class="wpforms-field wpforms-field-email"
+                                <div id="wpforms-1621-field_1-container" class="wpforms-field wpforms-field-email"
                                     data-field-id="1"><label class="wpforms-field-label"
                                         for="wpforms-1621-field_1">Phone Number <span class="wpforms-required-label"
-                                            aria-hidden="true">*</span></label><input type="number" placeholder="Enter phone number"
-                                        id="wpforms-1621-field_1" class="wpforms-field-medium wpforms-field-required"
-                                        name="number" spellcheck="false"
-                                        aria-errormessage="wpforms-1621-field_1-error" required=""></div><br>
+                                            aria-hidden="true">*</span></label><input type="number"
+                                        placeholder="Enter phone number" id="wpforms-1621-field_1"
+                                        class="wpforms-field-medium wpforms-field-required" name="number"
+                                        spellcheck="false" aria-errormessage="wpforms-1621-field_1-error" required="">
+                                </div><br>
 
 
                                 <div id="wpforms-1621-field_2-container" class="wpforms-field wpforms-field-textarea"
                                     data-field-id="2"><label class="wpforms-field-label"
                                         for="wpforms-1621-field_2">Comment or Message</label><textarea
                                         id="wpforms-1621-field_2" class="wpforms-field-medium" name="wpforms[fields][2]"
-                                        aria-errormessage="wpforms-1621-field_2-error" style="height: 81px;" placeholder="Comment or Message"></textarea>
+                                        aria-errormessage="wpforms-1621-field_2-error" style="height: 81px;"
+                                        placeholder="Comment or Message"></textarea>
                                 </div>
                             </div>
                             <div
@@ -157,53 +171,6 @@
                                     alt="Loading"></div>
                         </form>
                     </div>
-                    <hr class="wp-block-separator has-css-opacity is-style-wide">
-                    <h3 class="wp-block-heading" id="frequently-asked-questions">Frequently Asked Questions</h3>
-                    <h5 class="wp-block-heading" id="can-i-work-for-the-church">Can I work for the church?</h5>
-                    <p>Please call the East Kampala SDA Job Hotline at +256 772485289. Note, there is not a website
-                        for this information. Or you may contact us through email directly.</p>
-
-                    <h5 class="wp-block-heading" id="how-can-i-contact-the-president-directly">How can I contact the
-                        president directly?</h5>
-                    <p>There are 18 million members worldwide, so we do our best to empower local leaders around the
-                        globe to handle questions. If you wish to suggest something to the president, offer a comment or
-                        express a concern, we will pass your comments along to administration.</p>
-                    <h5 class="wp-block-heading"
-                        id="i-have-a-concern-or-dispute-with-someone-locally-can-the-adventist-church-headquarters-help-me-settle-it">
-                        I have a concern or dispute with someone locally. Can the Adventist Church headquarters help me
-                        settle it?</h5>
-                    <p>We suggest following biblical process and taking your concern directly to that person. If that
-                        does not satisfy your concern, then take a few other people with you to address the concern. If
-                        that doesn’t resolve the situation, then we suggest notifying a local church elder or pastor.
-                        Only after involving these people should you then contact local conference/union leadership.</p>
-                    <h5 class="wp-block-heading"
-                        id="i-have-a-concern-with-the-ministry-methods-of-a-local-administrative-unit-can-i-give-my-tithe-directly-to-the-world-headquarters">
-                        I have a concern with the ministry methods of a local administrative unit. Can I give my tithe
-                        directly to the world headquarters?</h5>
-                    <p>Here is advice from former GC Stewardship Ministries Director Erika Puni:</p>
-                    <p><em>I affirm you for your desire to do the right thing and return tithe to its rightful
-                            owner—God. I also thank you on behalf of the Adventist world church for your faithfulness in
-                            returning the Lord’s tithe in the past, thus enabling the church to do God’s work in the
-                            world. I recognize that the church is not perfect, and perhaps the decision its leaders take
-                            from time to time may not meet our personal expectations, but the church will continue to be
-                            God’s appointed agency for the saving of people for His soon return.</em></p>
-                    <p><em>I empathize with your disappointment but I would encourage you to continue to be faithful,
-                            and return tithe as you’ve always done when you said yes to Jesus. You know these Biblical
-                            principles, but I will restate them as a reminder to both of us:</em></p>
-                    <ul>
-                        <li><em>Tithe belongs to God.</em></li>
-                        <li><em>Tithe is an act of worship.</em></li>
-                        <li><em>Stewards return tithe as an expression of their faithfulness to God, and its part of
-                                their relationship with Him.</em></li>
-                        <li><em>Tithe is to be returned to God’s storehouse.</em></li>
-                    </ul>
-                    <p><em>Here’s a statement from Ellen White herself. “Some have been dissatisfied, and have said, “I
-                            will no longer pay my tithe; for I have no confidence in the way things are managed at the
-                            heart of the work.” But will you rob God because you think the management of the work is not
-                            right? Make your complaint, plainly and openly, in the right spirit, to the proper ones.
-                            Send in your petitions for things to be adjusted and set in order; but do not withdraw from
-                            the work of God, and prove unfaithful, because others are not doing right.” (9T 249).</em>
-                    </p>
                 </div>
             </div>
         </article>
@@ -212,7 +179,7 @@
             <div class="u-spacing--double u-padding--right">
                 <section
                     class="widget c-widget c-carbon_fields_alps_widget_text_with_link-2 c-carbon_fields_alps_widget_text_with_link o-link-wrapper--underline u-spacing u-background-color--gray--light u-padding u-theme--border-color--darker u-border--left can-be--dark-dark">
-                    <div
+                    <div style="border-radius: 20px;"
                         class="c-block__breakout u-padding u-padding--double--bottom u-padding--double--top u-spacing u-theme--background-color--darker">
                         <h3 class="c-block__title u-color--white">Our Beliefs</h3>
                         <p class="c-block__body u-theme--color--lighter">Seventh-day Adventist beliefs are meant to

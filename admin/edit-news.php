@@ -1,5 +1,7 @@
 <?php
 include'config.php';
+// Make sure you start session for the administrator before displaying any view to the user
+session_start();
 
 $new = $_GET["id"];
 $view_news = "SELECT * FROM news WHERE news_id=?";

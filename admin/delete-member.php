@@ -1,5 +1,7 @@
 <?php
 include'config.php';
+// Make sure you start session for the administrator before displaying any view to the user
+session_start();
 
 $my_id =  $_GET["id"];
 $delete_member = "DELETE FROM member_list WHERE member_id=?";

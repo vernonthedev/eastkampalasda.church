@@ -1,39 +1,123 @@
+<style>
+  .footer-text , h4{
+    font-family: "noto serif", Georgia, Times, times new roman, serif;
+  }
+  li, strong{
+    font-family: "noto serif", Georgia, Times, times new roman, serif;
+  }
+</style>
+
 <footer class="c-footer u-theme--background-color--primary u-theme--background-color--darker" role="contentinfo">
   <div class="c-footer--inner u-color--white l-grid l-grid--7-col l-grid-wrap l-grid-wrap--6-of-7">
     <div class="l-grid-item l-grid-item--m--3-col c-footer__description">
-      <p class="c-footer__description-text u-font--secondary--m">
-        eastkampalasdachurch is an official website of the Seventh-day Adventist world church • <a href="http://www.adventist.org/en/world-church/" target="_blank" rel="noopener">View Regions</a>
-<p style="text-align: right;"></p>
+      <p class="c-footer__description-text u-font--secondary--m footer-text" style="font-size:20px;">
+        A vibrant Seventh-day Adventist congregation in the heart of Kampala, dedicated to worship, community, and
+        spiritual growth. Join us on a path to faith and fellowship.<br>
+
+        <img src="assets/images/sda logo white.png" width="20%" alt="Seventh Day Adventist Logo" style="padding-top:10px;"/>
+        <br>
+        SEVENTH-DAY<br>
+        ADVENTIST
+          CHURCH<br>
+        EASTKAMPALA
+
+      <p style="text-align: right;"></p>
       </p>
     </div> <!-- /.c-footer__description -->
     <div class="l-grid-item l-grid-item--m--3-col l-grid-item--l--1-col c-footer__primary-nav">
       <nav class="c-footer__primary-nav__list u-spacing--half">
-                    <a href="https://www.facebook.com/eastkampalasdachurch/" class="c-footer__primary-nav__link u-theme--link-hover--light u-link--white " target="_blank"><strong>Facebook</strong></a>
-                <a href="https://www.instagram.com/eastkampalasdachurch/" class="c-footer__primary-nav__link u-theme--link-hover--light u-link--white " target="_blank"><strong>Instagram</strong></a>
-                <a href="https://twitter.com/eastkampalasdachurch" class="c-footer__primary-nav__link u-theme--link-hover--light u-link--white " target="_blank"><strong>Twitter</strong></a>
-                <a href="https://www.youtube.com/eastkampalasdachurch" class="c-footer__primary-nav__link u-theme--link-hover--light u-link--white " target="_blank"><strong>Youtube</strong></a>
-
-  </nav> <!-- /.c-footer__primary-nav -->
-    </div> <!-- /.c-footer__primary-nav -->
+        <a href="https://www.facebook.com/eastkampalasdachurch/"
+          class="c-footer__primary-nav__link u-theme--link-hover--light u-link--white "
+          target="_blank"><i class="bi bi-facebook"></i><strong> Facebook</strong></a>
+        <a href="https://www.instagram.com/eastkampalasdachurch/"
+          class="c-footer__primary-nav__link u-theme--link-hover--light u-link--white "
+          target="_blank"><i class="bi bi-instagram"></i><strong> Instagram</strong></a>
+        <a href="https://twitter.com/eastkampalasdachurch"
+          class="c-footer__primary-nav__link u-theme--link-hover--light u-link--white "
+          target="_blank"><i class="bi bi-twitter-x"></i><strong> Twitter</strong></a>
+        <a href="https://www.youtube.com/@eastkampalasdachurch"
+          class="c-footer__primary-nav__link u-theme--link-hover--light u-link--white "
+          target="_blank"><i class="bi bi-youtube"></i><strong> Youtube</strong></a>
+<br>
+          <strong>Website Links</strong>
+          <li><i class="bi bi-house-fill"><a href="daily-devotion.php"> Sermons</a> </i></li>
+          <li><i class="bi bi-house-gear-fill"><a href="family-ministries.php"> Departments</a></i> </li>
+          <li><i class="bi bi-calendar-check-fill"><a href="events.php"> Events</a></i> </li>
+          <li><i class="bi bi-images"><a href="gallery.php"> Image Gallery</a></i> Image </li>
+          <li><i class="bi bi-person-lines-fill"><a href="about-us.php"> About Us</a></i>  </li>
+          <li><i class="bi bi-camera-video-fill"><a href="live.php"> Livestream</a></i> </li>
+          <li><i class="bi bi-telephone-forward-fill"></i><a href="contact-us.php"> Contact Us</a></i></li>
+          <li><i class="bi bi-file-earmark-medical"><a href="privacy-policy.php"> Privacy Policy</a></i></li>
+          
+      </nav> 
+    </div> 
     <div class="l-grid-item l-grid-item--m--3-col l-grid-item--l--2-col c-footer__secondary-nav">
       <nav class="c-footer__secondary-nav__list u-spacing--half">
-                    <a href="https://www.adventist.org/en/copyright/trademark-and-logo-usage/" class="c-footer__secondary-nav__link u-theme--link-hover--light u-link--white ">
-        <span class="u-icon u-icon--xs u-path-fill--white u-space--half--right"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10.01 10"><title>Three horizontal bars</title><path d="M10,2.31H0V0H10ZM6.36,3.85H0v2.3H6.36ZM8.22,7.7H0V10H8.22Z" fill="#231f20"/></svg></span><font>Trademark and Logo Usage</font>
-      </a>
-                <a href="https://www.adventist.org/en/copyright/legal-notice/" class="c-footer__secondary-nav__link u-theme--link-hover--light u-link--white ">
-        <span class="u-icon u-icon--xs u-path-fill--white u-space--half--right"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10.01 10"><title>Three horizontal bars</title><path d="M10,2.31H0V0H10ZM6.36,3.85H0v2.3H6.36ZM8.22,7.7H0V10H8.22Z" fill="#231f20"/></svg></span><font>Legal Notice</font>
-      </a>
-                <a href="http://privacy.adventist.org/en/" class="c-footer__secondary-nav__link u-theme--link-hover--light u-link--white ">
-        <span class="u-icon u-icon--xs u-path-fill--white u-space--half--right"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10.01 10"><title>Three horizontal bars</title><path d="M10,2.31H0V0H10ZM6.36,3.85H0v2.3H6.36ZM8.22,7.7H0V10H8.22Z" fill="#231f20"/></svg></span><font>Privacy Policy</font>
-      </a>
+        <h4>Subscribe to Our Newsletters.</h4>
+        <form style="display: flex; align-items: center;">
+          <div style="position: relative;">
+            <input id="subscribe" name="subscribe" type="text" placeholder="Your email address"
+              style="padding-right: 30px;border-radius: 20px; width: 400px;"/>
+            <button type="submit"
+              style="position: absolute; right: 5px; width: 90px; font-size: 11px;">Subscribe</button>
+          </div>
+        </form>
+        <h4 style="padding-top: 20px;">
+          Mid-Week Fellowship
+        </h4>
+        <p>
+          Join Us Every Wednesday and Friday for fellowship from 8:15pm - 9:00pm via our church platform:<br>
+          Meeting ID: <strong>271 489 0869</strong><br>
+          Password: <strong>202112</strong>
+        </p><br>
+        <img src="assets/images/ekc-qrcode.svg" width="45%" alt="QRCODE for East Kampala SDA Daily Devotions" style="padding-top:10px;"/>
 
-  </nav> <!-- /.c-footer__secondary-nav -->
+
+      </nav> <!-- /.c-footer__secondary-nav -->
     </div> <!-- /.c-footer__secondary-nav -->
-        <div class="l-grid-item l-grid-item--m--3-col c-footer__legal">
-      <p class="c-footer__copyright">© 2023 East Kampala Seventh Day Adventist Church of Seventh-day Adventists </p>
+    <div class="l-grid-item l-grid-item--m--8-col c-footer__legal">
+      <p class="c-footer__copyright">©
+        <script>document.write(new Date().getFullYear())</script> East Kampala Seventh Day Adventist Church
+      </p>
       <address class="c-footer__address" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
-        <span itemprop="streetAddress">Kira Kimwanyi</span>        <span itemprop="addressLocality"> Kampala</span>        <span itemprop="addressRegion">, Uganda</span>
-        <a itemprop="telephone" href="tel:(256) 000 000 000" class="c-footer__phone u-link--white u-theme--link-hover--light">(256) 0000 000 000</a>      </address>
-    </div> <!-- /.c-footer__legal -->
-  </div> <!-- /.c-footer--inner -->
-</footer> <!-- /.c-footer -->
+        <span itemprop="streetAddress">Kira Kimwanyi</span> <span itemprop="addressLocality"> Kampala</span> <span
+          itemprop="addressRegion">, Uganda</span>
+        <a itemprop="telephone" href="tel:(+256) 772 485 289"
+          class="c-footer__phone u-link--white u-theme--link-hover--light">(+256) 772 485 289</a>
+      </address>
+    </div> 
+  </div>
+</footer> 
+
+
+<!-- Back to Top Button -->
+<button id="backToTopBtn" onclick="scrollToTop()">
+        &uarr;
+    </button>
+
+    <script>
+         // Hide the loader when the page has finished loading
+         window.onload = function () {
+            document.getElementById("loader").style.display = "none";
+        };
+
+        // Function to scroll to the top of the page
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        // Show/hide the back to top button based on scroll position
+        window.onscroll = function() {
+            showBackToTopButton();
+        };
+
+        function showBackToTopButton() {
+            var btn = document.getElementById("backToTopBtn");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        }
+    </script>
