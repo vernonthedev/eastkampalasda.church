@@ -129,6 +129,7 @@ if (isset($_POST['submit'])) {
 	    $e_path = $uploaddir ."/". $e_img;
 //		we run the db queries only if the vars have received data
 	    if(move_uploaded_file($e_tmp, $e_path)){
+            try{
 	        $insert_event = "INSERT INTO event_list(event_id, event_title, event_date, event_place, event_content, event_img) VALUES(?, ?, ?, ?, ?, ?)";
 	        $run_query = $conn->prepare($insert_event);
 	        $run_query->execute(["",$e_title,$e_date,$e_place,$e_content,$e_img]);
@@ -139,6 +140,10 @@ if (isset($_POST['submit'])) {
 	        else{
 	            echo '<script>swal("Failed", "Program Not Uploaded Successfully", "error");</script>';
 	        }
+        } catch (PDOException $e) {
+            echo '<script>swal("Error", "Database Error: ' . $e->getMessage() . '", "error");</script>';
+        }
+        
 	    }
 	    else{
 	        echo '<script>swal("Failed", "Program Not Uploaded ", "error");</script>';

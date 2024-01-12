@@ -115,7 +115,7 @@ if (isset($_POST['submit'])) {
     $mem = $_POST['mem'];
     $special = $_POST['special'];
 
-
+    try{
     $insert_announcement = "INSERT INTO upcoming(id, theme, sermon_title, preacher, key_text,music) VALUES(?, ?, ?,?,?,?)";
     $run_query = $conn->prepare($insert_announcement);
     $success = $run_query->execute(["",$theme, $title, $preacher, $mem, $special]);
@@ -125,6 +125,10 @@ if (isset($_POST['submit'])) {
     } else {
         echo '<script>swal("Failed", "Next Sabbaths Not Uploaded Successfully", "error");</script>';
     }
+} catch (PDOException $e) {
+    echo '<script>swal("Error", "Database Error: ' . $e->getMessage() . '", "error");</script>';
+}
+
 
 }
 

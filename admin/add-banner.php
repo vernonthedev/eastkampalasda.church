@@ -113,7 +113,7 @@ if (isset($_POST['submit'])) {
 	    $banner_path = $uploaddir ."/". $banner_img;
 
 	    if(move_uploaded_file($tmp_banner, $banner_path)){
-
+ try{
 	        $insert_banner = "INSERT INTO banner_slider(id, banner_title, banner_content, banner_img) VALUES(?, ?, ?, ?)";
 	        $run_query = $conn->prepare($insert_banner);
 	        $run_query->execute(["",$banner_title, $banner_msg, $banner_img]);
@@ -125,6 +125,10 @@ if (isset($_POST['submit'])) {
 	        else{
 	            echo '<script>swal("Failed", "Banner Not Uploaded Successfully", "error");</script>';
 	        }
+        } catch (PDOException $e) {
+            echo '<script>swal("Error", "Database Error: ' . $e->getMessage() . '", "error");</script>';
+        }
+        
 	    }
 	    else{
 	        echo '<script>swal("Failure", "Banner Not Uploaded", "success");</script>';

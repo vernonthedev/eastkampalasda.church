@@ -105,7 +105,7 @@ if (isset($_POST['upload_video'])){
 	    $video_path = $gallerydir ."/". $video_location;
 
 	    if(move_uploaded_file($tmp_video, $video_path)){
-
+            try{
 	        $insert_gallery = "INSERT INTO video_gallery(video_id, video_title, video_location) VALUES(?, ?, ?)";
 	        $run_query = $conn->prepare($insert_gallery);
 	        $run_query->execute(['', $video_title, $video_location]);
@@ -116,6 +116,10 @@ if (isset($_POST['upload_video'])){
 	        else{
 	            echo '<script>swal("Failed", "Video Sermon Not Uploaded", "error");</script>';
 	        }
+        } catch (PDOException $e) {
+            echo '<script>swal("Error", "Database Error: ' . $e->getMessage() . '", "error");</script>';
+        }
+        
 	    }
 	    else{
 	        echo '<script>swal("Failure", "Video Sermon Not Uploaded", "error");</script>';

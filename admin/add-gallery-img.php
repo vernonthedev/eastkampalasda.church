@@ -106,7 +106,7 @@ if (isset($_POST['upload_img'])){
 	    $gallery_path = $gallerydir ."/". $gallery_img;
 //		after placing the received data into vars, then we can make the sql queries
 	    if(move_uploaded_file($tmp_gallery, $gallery_path)){
-
+try{
 	        $insert_gallery = "INSERT INTO image_gallery(gallery_id, gallery_title, gallery_img) VALUES(?, ?, ?)";
 	        $run_query = $conn->prepare($insert_gallery);
 	        $run_query->execute(['', $gallery_title, $gallery_img]);
@@ -117,6 +117,10 @@ if (isset($_POST['upload_img'])){
 	        else{
 	            echo '<script>swal("Failed", "Image not Uploaded to Gallery", "error");</script>';
 	        }
+        } catch (PDOException $e) {
+            echo '<script>swal("Error", "Database Error: ' . $e->getMessage() . '", "error");</script>';
+        }
+        
 	    }
 	    else{
 	        echo '<script>swal("Failure", "Image Not Uploaded ", "error");</script>';

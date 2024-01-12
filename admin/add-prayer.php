@@ -94,6 +94,7 @@ if (isset($_POST['upload_img'])){
     $tmp_gallery = $_FILES['gallery_img']['tmp_name'];
     $gallery_path = $gallerydir ."/". $gallery_img;
     if(move_uploaded_file($tmp_gallery, $gallery_path)){
+        try{
         $insert_gallery = "INSERT INTO prayers(prayer_id,prayer_img) VALUES(?, ?)";
         $run_query = $conn->prepare($insert_gallery);
         $run_query->execute(['', $gallery_img]);
@@ -103,6 +104,10 @@ if (isset($_POST['upload_img'])){
         else{
             echo '<script>swal("Failed", "Prayer not Uploaded to Gallery", "error");</script>';
         }
+    } catch (PDOException $e) {
+        echo '<script>swal("Error", "Database Error: ' . $e->getMessage() . '", "error");</script>';
+    }
+    
     }
     else{
         echo '<script>swal("Failure", "Prayer Not Uploaded ", "error");</script>';

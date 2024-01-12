@@ -142,6 +142,7 @@ if (isset($_POST['submit'])) {
     $closing = $_POST['closing'];
     $affirm = $_POST['affirm'];
 
+    try{
         $insert_event = "INSERT INTO songs(id, introit, call_to_worship, doxology, welcome, opening, prayer_song, memory_text, closing, affirmation) VALUES(?, ?, ?, ?, ?, ?,?,?,?,?)";
         $run_query = $conn->prepare($insert_event);
         $run_query->execute(["",$introit,$callto,$doxology,$welcome,$opening,$prayer,$mem,$closing,$affirm]);
@@ -152,7 +153,10 @@ if (isset($_POST['submit'])) {
         else{
             echo '<script>swal("Failed", "Songs Not Uploaded Successfully", "error");</script>';
         }
-
+    } catch (PDOException $e) {
+        echo '<script>swal("Error", "Database Error: ' . $e->getMessage() . '", "error");</script>';
+    }
+    
 
 }
 

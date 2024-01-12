@@ -153,7 +153,7 @@ if (isset($_POST['submit'])) {
     $special = $_POST['special'];
     $mem = $_POST['mem'];
     $sermon = $_POST['sermon'];
-
+    try{
     $insert_event = "INSERT INTO serving_team(id, call_to_worship, invocation, welcome, pastoral, worship, collection_music, scripture, special_music, sermon, closing_song) VALUES(?, ?, ?, ?, ?, ?,?,?,?,?,?)";
     $run_query = $conn->prepare($insert_event);
     $run_query->execute(["",$callto,$invocation,$welcome,$pastoral,$worship,$offertory,$mem,$special,$sermon, $closing]);
@@ -164,6 +164,10 @@ if (isset($_POST['submit'])) {
     else{
         echo '<script>swal("Failed", "Songs Not Uploaded Successfully", "error");</script>';
     }
+} catch (PDOException $e) {
+    echo '<script>swal("Error", "Database Error: ' . $e->getMessage() . '", "error");</script>';
+}
+
 
 
 }

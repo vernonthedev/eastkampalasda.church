@@ -103,6 +103,7 @@ if (isset($_POST['upload_img'])){
 //	if the uploaded img was placed in the tmp_file and we also got the path
 //	continue and insert the data to the data --VALIDATION--
 	if(move_uploaded_file($tmp_gallery, $gallery_path)){
+        try{
 	        $insert_gallery = "INSERT INTO bulletin_qrcodes(bq_id, bq_image) values(?, ?)";
 	        $run_query = $conn->prepare($insert_gallery);
 	        $run_query->execute(["", $gallery_img]);
@@ -113,6 +114,10 @@ if (isset($_POST['upload_img'])){
 	        else{
 	            echo '<script>swal("Failed", "Qrcode not Uploaded to Gallery", "error");</script>';
 	        }
+        } catch (PDOException $e) {
+            echo '<script>swal("Error", "Database Error: ' . $e->getMessage() . '", "error");</script>';
+        }
+        
 	    }
 	    else{
 	        echo '<script>swal("Failure", "Qrcode Not Uploaded ", "error");</script>';

@@ -110,6 +110,7 @@ if (isset($_POST['add_member'])) {
 	    $tmp_member = $_FILES['member_img']['tmp_name'];
 	    $member_path = $uploaddir ."/". $member_img;
 	    if(move_uploaded_file($tmp_member, $member_path)){
+            try{
 	        $insert_member = "INSERT INTO member_list(member_id, member_name, member_title, member_img) VALUES(?, ?, ?, ?)";
 	        $run_query = $conn->prepare($insert_member);
 	        $run_query->execute(['', $member_name, $member_title, $member_img]);
@@ -119,6 +120,10 @@ if (isset($_POST['add_member'])) {
 	        else{
 	            echo '<script>swal("Failed", "Member Not Uploaded Successfully", "error");</script>';
 	        }
+        } catch (PDOException $e) {
+            echo '<script>swal("Error", "Database Error: ' . $e->getMessage() . '", "error");</script>';
+        }
+        
 	    }
 	    else{
 	        echo '<script>swal("Failure", "Member Not Uploaded", "error");</script>';
