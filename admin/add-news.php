@@ -134,10 +134,11 @@ if (isset($_POST['submit'])) {
 	    $n_tmp = $_FILES['n_img']['tmp_name'];
 	    $n_path = $uploaddir ."/". $n_img;
 
+   
 	    if(move_uploaded_file($n_tmp, $n_path)){
-            try{
 	        $insert_news = "INSERT INTO news(news_id, news_title, news_date, news_place, news_type, news_content, news_img) VALUES(?, ?, ?, ?, ?, ?, ?)";
-	        $run_query = $conn->prepare($insert_news);
+	        try{
+            $run_query = $conn->prepare($insert_news);
 	        $run_query->execute(['',$n_title, $n_date, $n_place, $n_type, $n_content, $n_img]);
 
 	        if ($run_query->rowCount() > 0){
@@ -146,11 +147,10 @@ if (isset($_POST['submit'])) {
 	        }
 	        else{
 	            echo '<script>swal("Failed", "Devotion Not Uploaded Successfully", "error");</script>';
-	        }
+	        } 
         } catch (PDOException $e) {
             echo '<script>swal("Error", "Database Error: ' . $e->getMessage() . '", "error");</script>';
         }
-        
 	    }
 	    else{
 	        echo '<script>swal("Failure", "Devotion Not Uploaded", "error");</script>';

@@ -49,13 +49,17 @@ EKC Sermon
 <span class="arve-ar" style="padding-top:56.200000%"></span>
 
 
-<video>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uve35Z2jeKM?si=sQsKA_ihMUf7Ut55" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</video>
+
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/ht3ewsHMCKw?si=sDBKVHo_F-EWGgp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 <!-- <video>
 <iframe width="560" height="315" src="youtube.com/embed/live_stream?channel=@eastkampalasdachurch”frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </video> -->
+
+<video>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/ht3ewsHMCKw?si=sDBKVHo_F-EWGgp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</video>
 
 
 

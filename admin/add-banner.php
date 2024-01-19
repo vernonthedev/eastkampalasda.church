@@ -131,7 +131,7 @@ if (isset($_POST['submit'])) {
         
 	    }
 	    else{
-	        echo '<script>swal("Failure", "Banner Not Uploaded", "success");</script>';
+	        echo '<script>swal("Failure", "Banner Not Uploaded", "error");</script>';
 	    }
 
 }

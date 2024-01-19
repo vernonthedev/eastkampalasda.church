@@ -191,8 +191,8 @@ h3 {
               <p class="c-card__body text">
                 The East Kampala Seventh Day Adventist Church (EKC) is one the latest Adventist Churches founded in
                 Eastern part of Kampala District located in Kira Kimanyi
-                EKC is a sub-entity of the General Conference of Seventh-day Adventists, which coordinates the Church’s
-                activities in the Eastern part of Africa </p>
+                EKC is a sub-entity of the Central Uganda Conference, which coordinates the Church’s
+                activities in the Eastern part of Kampala </p>
               <a href="about-us.php" class="c-card__button o-button o-button--outline">Read More<span
                   class="u-icon u-icon--m u-path-fill--base u-space--half--left"><svg xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20">
