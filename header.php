@@ -54,7 +54,7 @@
 
                     <li
                       class="c-primary-nav__subnav__list-item c-subnav__list-item u-background-color--gray--light u-theme--border-color--dark">
-                      <a href="#"
+                      <a href="video-sermons.php"
                         class="c-primary-nav__subnav__link c-subnav__link u-color--gray--dark u-theme--link-hover--base ">Video
                         Sermons</a>
                     </li>
@@ -78,7 +78,7 @@
                     </li>
                     <li
                       class="c-primary-nav__subnav__list-item c-subnav__list-item u-background-color--gray--light u-theme--border-color--dark">
-                      <a href="#"
+                      <a href="audio-sermons.php"
                         class="c-primary-nav__subnav__link c-subnav__link u-color--gray--dark u-theme--link-hover--base ">Audio
                         Sermons</a>
                     </li>
@@ -119,7 +119,7 @@
                   <ul class="c-primary-nav__subnav c-subnav">
                     <li
                       class="c-primary-nav__subnav__list-item c-subnav__list-item u-background-color--gray--light u-theme--border-color--dark">
-                      <a href="#"
+                      <a href="sabbath-bulletin.php"
                         class="c-primary-nav__subnav__link c-subnav__link u-color--gray--dark u-theme--link-hover--base ">Sabbath
                         Bulletin</a>
                     </li>
@@ -200,7 +200,7 @@
                     <ul class="c-primary-nav__subnav c-subnav">
                       <li
                         class="c-primary-nav__subnav__list-item c-subnav__list-item u-background-color--gray--light u-theme--border-color--dark">
-                        <a href="#"
+                        <a href="video-sermons.php"
                           class="c-primary-nav__subnav__link c-subnav__link u-color--gray--dark u-theme--link-hover--base ">Video
                           Sermons</a>
                       </li>
@@ -223,7 +223,7 @@
                       </li>
                       <li
                         class="c-primary-nav__subnav__list-item c-subnav__list-item u-background-color--gray--light u-theme--border-color--dark">
-                        <a href="#"
+                        <a href="audio-sermons.php"
                           class="c-primary-nav__subnav__link c-subnav__link u-color--gray--dark u-theme--link-hover--base ">Audio
                           Sermons</a>
                       </li>
@@ -250,7 +250,7 @@
                     <ul class="c-primary-nav__subnav c-subnav">
                       <li
                         class="c-primary-nav__subnav__list-item c-subnav__list-item u-background-color--gray--light u-theme--border-color--dark">
-                        <a href="#"
+                        <a href="sabbath-bulletin.php"
                           class="c-primary-nav__subnav__link c-subnav__link u-color--gray--dark u-theme--link-hover--base ">Sabbath
                           Bulletin</a>
                       </li>

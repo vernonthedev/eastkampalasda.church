@@ -49,25 +49,19 @@
     </section>
   </div>
 </header>
-<section id="top"
-  class="l-main__content l-grid l-grid--7-col u-shift--left--1-col--at-xxlarge l-grid-wrap--6-of-7 u-spacing--double--until-xxlarge u-padding--zero--sides">
-  <article
-    class="c-article l-grid-item l-grid-item--l--4-col l-grid-item--xxl--3-col post-303 page type-page status-publish format-standard has-post-thumbnail hentry">
-    <div class="c-article__body">
-      <div class="text u-spacing">
-
-        <div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
-          <div class="wp-block-button is-style-outline">
-            <h3 class="u-theme--color--darker u-theme--color--darker u-font--primary--m">
-              <a href="#" class="c-block__title-link u-theme--link-hover--dark">
-                <strong>Read the morning Watch</strong>
-              </a>
-            </h3>
-          </div>
-        </div>
 
 
 
+
+<section>
+  <!-- All the Devotions -->
+
+<div class="relative flex min-h-screen flex-col  overflow-hidden bg-gray">
+  <div class="mx-auto max-w-screen-xl px-4 w-full">
+    <h2 class="mb-4 font-bold text-xl text-gray-600">Read the Morning Watch</h2>
+    <div class="grid w-full sm:grid-cols-2 xl:grid-cols-4 gap-6">
+
+    
 
         <!-- Sermons Listing -->
         <?php
@@ -85,79 +79,45 @@
           $newsDate = date("l, F j, Y", strtotime($row->news_date));
           ?>
 
-
-
-
-          <div class="wp-block-alps-gutenberg-blocks-cta" >
-            <style type="text/css">
-              .o-background-image--6116 {
-                background-image: url('admin/news-images/<?php echo $row->news_img; ?>');
-                border-radius: 20px;
-              }
-            </style>
-            <div
-              class="c-cta-block c-block u-border--left u-theme--border-color--darker--left can-be--dark-dark has-image u-background-color--gray--light has-image" style="border-radius:20px;">
-              <div class="c-cta-block__content c-block__content u-spacing">
-                <div class="c-cta-block__group c-block__group u-spacing">
-                  <h3 class="c-cta-block__title c-block__title u-theme--color--darker u-font--primary--l">
-                    <?php echo $row->news_title; ?>
-                  </h3>
-                  <p class="c-cta-block__description c-block__description u-font--secondary u-font--secondary">
-                    <?php echo $newsDate ?><br /><br /><br /><br /><br /><br /><br /><br />
-                  </p>
-                </div>
-                <div class="c-cta-block__buttons c-block__buttons"><a
-                    href="sermon-details.php?id=<?php echo $row->news_id; ?>"
-                    class="c-block__button o-button o-button--outline" rel="noopener noreferrer">Read More<span
-                      class="u-icon u-icon--m u-path-fill--base u-space--half--left"><svg
-                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="24" height="24" class="icon"
-                        aria-hidden="true">
-                        <title>Arrow Long</title>
-                        <path d="M18.29,8.59l-3.5-3.5L13.38,6.5,15.88,9H.29v2H15.88l-2.5,2.5,1.41,1.41,3.5-3.5L19.71,10Z"
-                          fill="#9b9b9b"></path>
-                      </svg></span></a></div>
-              </div>
-              <div class="c-cta-block__image c-block__image o-background-image--6116 u-background--cover"></div>
-            </div>
+      <div class="relative flex flex-col shadow-md rounded-xl overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300 max-w-sm">
+        <a href="sermon-details.php?id=<?php echo $row->news_id; ?>" class="hover:text-orange-600 absolute z-30 top-2 right-0 mt-2 mr-3">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+          </svg>
+        </a>
+        <a href="sermon-details.php?id=<?php echo $row->news_id; ?>" class="z-20 absolute h-full w-full top-0 left-0 ">&nbsp;</a>
+        <div class="h-auto overflow-hidden">
+          <div class="h-44 overflow-hidden relative">
+            <img src="admin/news-images/<?php echo $row->news_img; ?>" alt="<?php echo $row->news_title; ?>">
           </div>
-
-          <?php
+        </div>
+        <div class="bg-white py-4 px-3">
+          <h3 class="text-xs mb-2 font-medium"><?php echo $row->news_title; ?></h3>
+          <div class="flex justify-between items-center">
+            <p class="text-xs text-gray-400">
+            <?php echo $newsDate ?> | <strong>Read More</strong>
+          </p>
+          <div class="relative z-40 flex items-center gap-2">
+   
+            <a class="text-orange-600 hover:text-blue-500" href="sermon-details.php?id=<?php echo $row->news_id; ?>">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
+            </svg>
+            </a>
+          </div>
+          </div>
+        </div>
+      </div>
+      
+      <?php
         }
         ?>
-
-
-
-
-
-      </div>
-    </div>
-  </article>
-
-
-
-
-
-  <div class="c-sidebar l-grid-item l-grid-item--l--2-col l-grid-item--xl--2-col u-padding--zero--sides">
-    <div class="u-spacing--double u-padding--right">
-      <section
-        class="c-widget c-text-2 c-widget_text o-link-wrapper--underline u-spacing u-background-color--gray--light u-padding u-theme--border-color--darker u-border--left can-be--dark-dark">
-        <div class="textwidget">
-          <p><img decoding="async" class="alignleft wp-image-4645 size-thumbnail"
-              src="https://www.gcyouthministries.org/wp-content/uploads/I_Will_GO_bright-blue.svg" alt width="150"
-              height="150" /></p>
-          <p>General Conference Youth has adopted the “I Will Go” logo of the world church for the next five years.
-            “Like arrows in the hands of a warrior,” (Psalms 127:4) our youth and young adults are designed by God to be
-            sent into the world with the three angels message (Revelation 14:6-12). This urgent and prophetic message
-            lifts up Jesus as the world’s Savior and His free gift of righteous by faith.</p>
-          <p>We also call upon young people to go and be the “Hands and feet of Jesus” in their local churches, on
-            campuses, in the cities, as well as in the unreached countries of the world! In these trying times, the
-            world need Adventists more than ever! We fervently pray that every Seventh-day Adventist young person from
-            ages 4 to 30 will join the world church in saying “I Will Go!”</p>
-        </div>
-      </section>
+      
     </div>
   </div>
+</div>
 </section>
+
 <ul class="pagination">
   <?php
   $total_records = $conn->query("SELECT COUNT(*) FROM news")->fetchColumn();

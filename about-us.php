@@ -51,12 +51,11 @@
       <img src="assets/images/church.jpg" height="800px"/>
 
 
-<h4 style="text-align: justify;">The East Kampala Seventh Day Adventist Church (SID) is the newest of the world church’s regions, covering much of Africa and island nations in the Indian Ocean.</h4>
-<p style="text-align: justify;">SID is a sub-entity of the&nbsp;General Conference of Seventh-day Adventists, which coordinates the Church&#8217;s activities in the southern portion of&nbsp;Africa, which include the nations of&nbsp;Angola,&nbsp;Ascension Island,&nbsp;Botswana,&nbsp;Comoro Islands,&nbsp;Lesotho,&nbsp;Madagascar,&nbsp;Malawi,&nbsp;Mauritius,&nbsp;Mozambique,&nbsp;Namibia, Reunion,&nbsp;São Tomé and Príncipe,&nbsp;Seychelles,&nbsp;South Africa,&nbsp;Swaziland,&nbsp;Zambia,&nbsp;Zimbabwe; as well as&nbsp;St. Helena&nbsp;and&nbsp;Tristan da Cunha, territories of the&nbsp;United Kingdom, and the&nbsp;Kerguelen Islands, territory of&nbsp;France. Our headquarters is in&nbsp;Pretoria, South Africa.&nbsp;</p>                      </div>
-    </div>
+<h4 style="text-align: justify;">The East Kampala Seventh Day Adventist Church (EKC) is found in kira kimwanyi</h4>
+   </div>
   </article>
   </section>
-          </main> <!-- /.l-main -->
+          </main>
 
 
 

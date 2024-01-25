@@ -93,39 +93,40 @@ session_start();
 </html>
 
 <?php
-//	check if the user has pressed the upload image button and made the request
-if (isset($_POST['upload_img'])){
-	$gallery_title = $_POST['gallery_title'];
-//	create the img-galla name if it doesn't exist
-	$gallerydir = 'images-gallery';
-	    if(!is_dir($gallerydir)){
-	        mkdir($gallerydir);
-	    }
-	    $gallery_img = $_FILES['gallery_img']['name'];
-	    $tmp_gallery = $_FILES['gallery_img']['tmp_name'];
-	    $gallery_path = $gallerydir ."/". $gallery_img;
-//		after placing the received data into vars, then we can make the sql queries
-	    if(move_uploaded_file($tmp_gallery, $gallery_path)){
-try{
-	        $insert_gallery = "INSERT INTO image_gallery(gallery_id, gallery_title, gallery_img) VALUES(?, ?, ?)";
-	        $run_query = $conn->prepare($insert_gallery);
-	        $run_query->execute(['', $gallery_title, $gallery_img]);
-//          when we return some data from the db inform of data rows, then we display these messages
-	        if ($run_query->rowCount() > 0){
-	            echo '<script>swal("Complete", "Image Uploaded Successfully", "success");</script>';
-	        }
-	        else{
-	            echo '<script>swal("Failed", "Image not Uploaded to Gallery", "error");</script>';
-	        }
+// Check if the user has pressed the upload image button and made the request
+if (isset($_POST['upload_img'])) {
+    $gallery_title = $_POST['gallery_title'];
+    // Create the img-galla name if it doesn't exist
+    $gallerydir = 'images-gallery';
+    if (!is_dir($gallerydir)) {
+        mkdir($gallerydir);
+    }
+    $gallery_img = $_FILES['gallery_img']['name'];
+    $tmp_gallery = $_FILES['gallery_img']['tmp_name'];
+    $gallery_path = $gallerydir . "/" . $gallery_img;
+    // After placing the received data into vars, then we can make the SQL queries
+    if (move_uploaded_file($tmp_gallery, $gallery_path)) {
+        try {
+            $insert_gallery = "INSERT INTO image_gallery (gallery_title, gallery_img) VALUES (?, ?)";
+            $run_query = $conn->prepare($insert_gallery);
+            $run_query->execute([$gallery_title, $gallery_img]);
+            
+
+            // Check for errors after the query execution
+            $errorInfo = $run_query->errorInfo();
+            if ($errorInfo[0] !== '00000') {
+                echo '<script>alert("Database Error: ' . $errorInfo[2] . '");</script>';
+            }
         } catch (PDOException $e) {
-            echo '<script>swal("Error", "Database Error: ' . $e->getMessage() . '", "error");</script>';
+            echo '<script>alert("Database Error: ' . $e->getMessage() . '");</script>';
         }
-        
-	    }
-	    else{
-	        echo '<script>swal("Failure", "Image Not Uploaded ", "error");</script>';
-	    }
+    } else {
+        $lastError = error_get_last();
+        if ($lastError !== null) {
+            echo '<script>alert("PHP Error: ' . $lastError['message'] . '");</script>';
+        } else {
+            echo '<script>alert("Failure: Image Not Uploaded");</script>';
+        }
+    }
 }
-
-
 ?>

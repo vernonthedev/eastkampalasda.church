@@ -91,40 +91,38 @@ session_start();
 
 </body>
 </html>
-
 <?php
-if (isset($_POST['upload_video'])){
-	$video_title = $_POST['video_title'];
-	$gallerydir = 'videos-gallery';
-	    if(!is_dir($gallerydir)){
-	        mkdir($gallerydir);
-	    }
+if (isset($_POST['upload_video'])) {
+    $video_title = $_POST['video_title'];
+    $gallerydir = 'videos-gallery';
+    if (!is_dir($gallerydir)) {
+        mkdir($gallerydir);
+    }
 
-	    $video_location = $_FILES['video_location']['name'];
-	    $tmp_video = $_FILES['video_location']['tmp_name'];
-	    $video_path = $gallerydir ."/". $video_location;
+    $video_location = $_FILES['video_location']['name'];
+    $tmp_video = $_FILES['video_location']['tmp_name'];
+    $video_path = $gallerydir . "/" . $video_location;
 
-	    if(move_uploaded_file($tmp_video, $video_path)){
-            try{
-	        $insert_gallery = "INSERT INTO video_gallery(video_id, video_title, video_location) VALUES(?, ?, ?)";
-	        $run_query = $conn->prepare($insert_gallery);
-	        $run_query->execute(['', $video_title, $video_location]);
+    if (move_uploaded_file($tmp_video, $video_path)) {
+        try {
+            $insert_gallery = "INSERT INTO video_gallery(video_title, video_location) VALUES(?, ?)";
+            $run_query = $conn->prepare($insert_gallery);
+            $run_query->execute([$video_title, $video_location]);
 
-	        if ($run_query->rowCount() > 0){
-	            echo '<script>swal("Complete", "Video Sermon Uploaded Successfully", "success");</script>';
-	        }
-	        else{
-	            echo '<script>swal("Failed", "Video Sermon Not Uploaded", "error");</script>';
-	        }
+            if ($run_query->rowCount() > 0) {
+                echo '<script>swal("Complete", "Video Sermon Uploaded Successfully", "success");</script>';
+            } else {
+                echo '<script>swal("Failed", "Video Sermon Not Uploaded", "error");</script>';
+            }
         } catch (PDOException $e) {
-            echo '<script>swal("Error", "Database Error: ' . $e->getMessage() . '", "error");</script>';
+            // Display the actual database error
+            $errorInfo = $run_query->errorInfo();
+            echo '<script>swal("Error", "Database Error: ' . $errorInfo[2] . '", "error");</script>';
         }
-        
-	    }
-	    else{
-	        echo '<script>swal("Failure", "Video Sermon Not Uploaded", "error");</script>';
-	    }
+    } else {
+        // Display the PHP error message
+        $phpError = error_get_last();
+        echo '<script>swal("Failure", "Video Sermon Not Uploaded. PHP Error: ' . $phpError['message'] . '", "error");</script>';
+    }
 }
-
-
 ?>

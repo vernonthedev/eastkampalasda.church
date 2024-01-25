@@ -1,38 +1,35 @@
 <!doctype html>
 <html class="u-theme--denim" lang="en-US">
-
-<head>
-    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <?php include "head.php"; ?>
     <?php include "config.php"; ?>
     <?php include "loading.php"; ?>
     <style>
-        /* Inline CSS for gallery cards */
-        .gallery-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
+ /* Base styles for larger screens */
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
-        .gallery-item {
-            flex: 0 1 calc(25% - 10px); /* 4 items per row with margin */
-            margin: 10px;
-            cursor: pointer;
-        }
+.gallery-item {
+    flex: 0 1 calc(25% - 10px); /* 4 items per row with margin */
+    margin: 10px;
+    cursor: pointer;
+}
 
-        .gallery-item img {
-            width: 200px; /* Set your preferred width */
-            height: 150px; /* Set your preferred height */
-            border-radius: 8px;
-            transition: transform 0.3s ease;
-        }
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
 
-        .gallery-item:hover img {
-            transform: scale(1.1);
-        }
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
 
-        /* Lightbox styles */
-        .lightbox {
+/* Lightbox styles */
+.lightbox {
     display: none;
     position: fixed;
     top: 0;
@@ -45,17 +42,29 @@
     z-index: 9999; /* Set a high z-index value */
 }
 
-        .lightbox img {
-            max-width: 80%;
-            max-height: 80%;
-            border-radius: 8px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
+.lightbox img {
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.pagination li a {
+  margin: 0 5px; /* Adjust the value as needed */
+}
+
+/* Responsive styles for smaller screens (less than 768px) */
+@media (max-width: 768px) {
+    .gallery-item {
+        flex: 0 1 calc(100% - 10px); /* 2 items per row on smaller screens */
+    }
+}
+
     </style>
-</head>
+
 
 <body>
     <?php include "header.php"; ?>
@@ -70,10 +79,10 @@
         </div>
     </header>
 
-    <section id="top" class="l-main__content l-grid l-grid--7-col u-shift--left--1-col--at-large l-grid-wrap--6-of-7 u-spacing--double--until-xxlarge u-padding--zero--sides">
+    <section id="top" class="l-main__content l-grid l-grid--7-col   u-padding--zero--sides">
         <?php
         // Pagination setup
-        $itemsPerPage = 7;
+        $itemsPerPage = 4;
         $current_page = isset($_GET['page']) ? (int) $_GET['page'] : 1;
         $offset = ($current_page - 1) * $itemsPerPage;
 
@@ -95,6 +104,19 @@
     <div class="lightbox">
         <img src="" alt="Lightbox Image" />
     </div>
+
+    <ul class="pagination">
+  <?php
+  $total_records = $conn->query("SELECT COUNT(*) FROM image_gallery")->fetchColumn();
+  $total_pages = ceil($total_records / $itemsPerPage);
+
+  for ($page = 1; $page <= $total_pages; $page++) {
+    echo "<li" . ($page == $current_page ? ' class="active"' : '') . ">";
+    echo "<a href='gallery.php?page=" . $page . "'>" . $page . "</a>";
+    echo "</li>";
+  }
+  ?>
+</ul>
 
     <?php include "footer.php"; ?>
 

@@ -86,7 +86,7 @@ if (!isset($_SESSION['admin_name'])) {
                     <a href="javascript: void(0);" class="has-arrow"> <i data-feather="file"></i> <span data-key="t-apps">Sabbath Bulletin</span> </a>
                     <ul class="sub-menu" aria-expanded="false">
                         <li>
-                            <a href="#"> <span data-key="t-calendar">All Bulletin content</span> </a>
+                            <a href="add-theme-content.php"> <span data-key="t-chat"></span>Add Theme Content</a>
                         </li>
                         <li>
                             <a href="add-songs.php"> <span data-key="t-chat"></span>Add Hymns</a>

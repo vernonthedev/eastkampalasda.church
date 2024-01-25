@@ -1,11 +1,362 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a97e2a21-24f1-4a75-917f-854f239a7cde" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/admin/add-banner.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add-banner.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/add-news.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add-news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/images-gallery/729229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/images-gallery/8O5A0002.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/images-gallery/8O5A0054.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/images-gallery/8O5A0579.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/images-gallery/8O5A9899.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/uploads/audios/03 Track 3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/uploads/audios/ANNOTINGA-KENNEDY.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/uploads/audios/AUD-20191221-WA0024.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/uploads/audios/BANSINDIKA_BY_BUDDO_S.S(128kbps).mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/uploads/audios/Colour my heart_-_Shepherds Flock.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/videos-gallery/02.Flutter Advanced UI Series EP01 GestureDetector (Part 2) -  DoubleTap &amp; LongPress Gestures.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/videos-gallery/04.Flutter Advanced UI Series EP01 GestureDetector (Part 4) - onScale Gestures.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/videos-gallery/06.Flutter Advanced UI Series EP03 ListView &amp; ListTile.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/videos-gallery/10.Flutter Advanced UI Series EP06 - Image Picker in Flutter.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/videos-gallery/How to Increase internet speed in Kali Linux __ fix slow internet speed __  Tutorial Inside.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/videos-gallery/genius coach.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio-sermons.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-sermons.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/add-gallery-img.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add-gallery-img.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/add-video.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add-video.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/images/auth-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/images/bg-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/images/bg-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/images/bg-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/images/error-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/images/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2013/07/trustservices-color489f.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2013/08/SIDmedia-logo_web19a15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2013/08/SIDmedia-logo_web1fea0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2013/08/ay-color489f.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2013/08/ay-color6f5d.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2013/08/education-color489f.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2015/03/Screen-Shot-2015-03-10-at-12.07.06-PMa1ce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2019/01/Logo_MinPersonales-1d055.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2019/01/PANEL-B-TOTAL-OF-420ee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2019/01/PANEL-B-TOTAL-OF-44d1e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2019/01/PANEL-B-TOTAL-OF-4d167.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2019/01/WM_logo_vector_black7e0b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2019/01/logo-publishinga17e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2019/02/PoGhDImU_400x400a87c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2019/02/Sabbath_School_alive465b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2019/02/Sabbath_School_alive4cff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2019/02/Sabbath_School_aliveeb45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2019/02/health-ministries7533.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2019/03/Screenshot-2019-03-29-at-10.57.04da2b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2019/05/Screenshot-2019-05-14-at-20.38.19ec5e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2019/08/1Artboard-191f7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2019/08/1Artboard-1d885.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2019/08/ACMS6fa0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2019/10/EN_Digital9318.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/01/PGTS-Bannere13a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/01/Screenshot-2020-01-23-at-09.33.2582c4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/01/Screenshot-2020-01-23-at-09.33.25b5c7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/01/Screenshot-2020-01-27-at-10.15.58ec70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Bonya-Mary-123fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Botha-Yolanda-367fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Brabant-JoAnn-214fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Brabant-Laurent-033fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Charles-Caroline-375fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Duplesis-Laetitia-433fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Guvi-Victoria-414fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Hara-Ralph-265fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Malufu-Mqhelwenkosi-356fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Mathonsi-Nkosinomusa-201fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Mathonsi-Qedumusa-359fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Moyo-Sithokozile-458fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Muabsa-Eunice-418fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Muabsa-Silas-017fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Muchula-Ennedy-475fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Ngomba-Hopkings-504fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Rakotonirina-Oliva-429fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Rakotonirina-Tsiri-440fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Sangronis-Maria-102fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Sibanda-Noel-280462b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Sibanda-Noel-280fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Tabac-Joseph-087fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Tabac-Marlyse-089fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/02/Theron-Xarande-365fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/03/covid1948bb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/03/emphasis0f25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/06/ASTR-Final-Flyer-2020_2_Page_1bfd7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/06/ASTR-Final-Flyer-2020_2_Page_2bfd7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/06/WM-cover52c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/06/WM-cover6bdb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/admirefe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/egw_ellen7c92.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/07/egw_ellenbb05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/25th-CHM2020-Vector23dc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/ChildrensMin-logo-vectorc6ed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/Christ-Children-figure-22cdb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/08/IWG-Christ-Childrend9d1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/09/SSPM-ADVISORY-POSTER4f87.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/09/SSPM-ADVISORY-POSTERd0fa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/09/Screenshot-2020-09-09-at-21.05.202f25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/09/Studio-Session-032-scaled52c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/09/Studio-Session-04016c9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/09/Studio-Session-096c968.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/10/Letters-to-my-Child-October-202052c5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/10/Letters-to-my-Child-October-20206bdb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/10/PM-Training-coverf534.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2020/11/Gerardo-Sangronisfe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/02/4b_2021_WMED_13Ministries_Bookmark_02_2021_prt_Page_10f1d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/02/Banner_IWillGo_WM_2020_02-scaled362d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/02/Banner_IWillGo_WM_2020_02-scaledc8cb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/02/Bonya-Hopeson-614-scaledd813.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/02/I-will-goaeee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/02/MundiaLiywalibc24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/03/Screenshot-2021-03-02-at-08.52.1133b0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/03/Screenshot-2021-03-02-at-08.52.11556c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/05/Gustavo-Massarofe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/06/Adventurer_Logo87d5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/06/Adventurer_Logoa0ac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/06/Ambassador_logo140c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/06/Ambassador_logo1eb1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/06/Pathfinder_logo2633.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/06/Pathfinder_logoe70d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/06/Pathfinder_logoeb45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/06/SYL-Logo-768x775-1019d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/06/SYL-Logo-768x775-11bb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/06/master_guide_logo230b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/06/master_guide_logo4cff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/06/newlogoc07c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/07/2018SYL_Curriculum-Final-2048x1583-11415.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/07/2018SYL_Curriculum-Final-2048x1583-1e2fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/07/ACM-Logo-New-2018fb2c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/07/ACMab7b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/07/GC-YOUTHbb0f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/07/GC-YOUTHd0fa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/07/O-poder-de-Boa-Saude-scaledd0fa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/07/PCM-Manual4e9d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/07/PCM-Manual5304.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/07/PCM-Student-1688f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/07/PCM-Student-172cf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/07/Uniforms3d3d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/07/Uniformsca48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/07/child-protection-resource-guide_Page_013b2f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/07/child-protection-resource-guide_Page_0168bf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/07/pexels-photo-356079a2dc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/07/pexels-photo-356079deb9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/08/PCM-Poster8506.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/11/ACMS-Report-nov20217bcc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/11/Ratio-Adv-Population535f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/12/ARISE-Online-Discipleship-School-Special-scaled6a05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2021/12/ARISE-Online-Discipleship-School-Special-scalede13f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/02/Screenshot-2022-02-22-at-18.29.045ab7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/02/Screenshot-2022-02-22-at-18.29.046f21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/02/Screenshot-2022-02-22-at-18.29.330433.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/02/Screenshot-2022-02-22-at-18.29.33e199.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/02/simweemband8bb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/04/AWR-logo482b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/04/logo7me4154.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/05/ZOE-LAUNCH-scaled52c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/AUA-Doctor-of-Ministryd0fa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/AUA-Postgrade52c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/MAU-Application6f04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/MAU-Application7223.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/Margery-H0595.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/MbingaLindiwefe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/MwansaDanielfe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/NjiniF2f69c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/ReynekeGeb1d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/ReynekeRhona-181f7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/Staff-Photos-2022-017-3-scaledd813.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/Staff-Photos-2022-017-3fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/Staff-Photos-2022-031fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/Staff-Photos-2022-064fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/Staff-Photos-2022-098fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/Staff-Photos-2022-109fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/Staff-Photos-2022-123-2fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/Staff-Photos-2022-189fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/Staff-Photos-2022-192fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/Staff-Photos-2022-218fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/Upload_20220712-100745-1fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/Upload_20220712-100745fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/WM-Virtual-Congress1612.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2022/07/pexels-photo-854247223ba.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/01/2023-01-19_09-54-32d450.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/03/Love-is-a-Verb52c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/04/Education-event3866.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/04/Education-eventf3f8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/04/IT-Advisory5064.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/04/IT-Advisoryeb45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/05/6fbee01a-e8d5-4823-97a7-1dba3cf84cb7-14e4f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/05/APM3140.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/05/DuPlessisMornay-00165-scaledd813.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/05/DuPlessisMornay-00165fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/05/IMG-20230526-WA0020bc24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/05/MwansaNamboMwikisa-220fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/05/Mxolisi--scaledd813.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/05/Mxolisi-fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/05/PapuJongimpi-00059fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/05/PapuNomthandazo-00071fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/05/Screenshot-2023-05-26-at-11.23.02a3c8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/05/SinjelaVenance-312fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/06/Daniel-Cuvalela-and-Wifec200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/06/Daniel-Cuvalela-and-Wifedb8e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/06/Dr-Silas-and-Mrs-Reacy-Chabala-scaled9754.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/06/Dr-Silas-and-Mrs-Reacy-Chabala-scaleda428.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/06/IMG-20230612-WA0105d5b0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/06/IMG-20230619-WA00972b88.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/06/IMG-20230619-WA0097a8e7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/06/IOUCb014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/06/Papus2dba4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/06/SAU2b88.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/06/SAUcc9f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/06/UNAaaaf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/06/image_64873270388.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/06/image_6487327849b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/07/IMG-20230525-WA0132a2df.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/07/IMG-20230525-WA0132eb45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/07/IMG-20230622-WA0061eb45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/07/IMG-20230622-WA0061fc05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/07/IMG-20230623-WA0094a2df.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/07/IMG-20230623-WA0094eb45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/08/Enditnow-2023d0fa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/08/Enditnow-2023eb45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/08/IMG-20230728-WA00266bdb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/08/IMG-20230728-WA0026eb45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/08/Screenshot-2023-08-01-at-09.16.202b2d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/08/vividfaith-min3de9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/AkombwaHarrinton-2fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/BonyaHopeson-146fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/Choose-Wondera221.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/Choose-Wondereb45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/GwatiringaIrvine-02112fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/KEYS-TO-HEALTHY-MINDS70f9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/KampiraCharles-01910fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/MoyoThembi-02106fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/Mulambo-00007fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/MulamboMargret-02310fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/Mundia-Liywalii-5fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/NjiniFelix-02087fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/NyawashaRuthyfe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/Papu-Familybc24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/Papu-Familyeb45-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/Papu-familyeb45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/Papu-familyf4d7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/SenoamadiSipho-fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/SibandaCaly-02099fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/SimweembaNelsonfe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/Thinking-wella3a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/Thinking-welleb45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/Toka-Mildred-4fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/Youth-Calendar-20247d40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/Youth-Calendar-20247f5a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/09/ZWUC-scaledb8b9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/10/2022-2656-max-12821.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/10/2022-2656-max-1d62f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/10/HerinirinaMargery-fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/10/ShumbaGood-son-03165fe95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-08-at-2.56.23-PM52c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i0.wp.com/sidadventist.org/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-08-at-2.56.23-PM6bdb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/secure.gravatar.com/images/grav-share-sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/image3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/live.php" beforeDir="false" afterPath="$PROJECT_DIR$/live.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2013/08/ay-color.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/01/PANEL-B-TOTAL-OF-4-1024x870.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/01/PANEL-B-TOTAL-OF-4-768x652.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/03/Screenshot-2019-03-29-at-10.57.04-1024x302.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/06/Adult-Religious-Education.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/06/Adventist-Community-Services.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/06/Children-Religious-Education.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/06/IICD-Core-Modules.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/06/IICD-Local-Church-Leadership.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/06/Personal-Evangelism.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/06/Public-Evangelism.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/07/Book-of-the-year-2019.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/How-to-Use-the-Discipleship-Handbook-How-to-Use-Discipleship-Handbook.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/Intentional-Discipleship-of-Children.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/Local-Church-Leader-Planning-Guide.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/Membership-or-Discipleship-What-You-Aim-for-is-What-You-Get.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/NR-Summit-2019-presentation-revised.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/Nurture-and-Heart-Retention.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/Nurture-through-Service-Creating-Opportunities-That-Strengthen-Faith.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/People-Behind-Numbers-Charles-Rampanelli-1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/SUMMIT-OUTCOMES.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/The-Amazing-Influence-of-Sabbath-School-for-Discipleship-and-Growth.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/The-Power-of-Discipleship-The-Power-of-Discipleship.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/Whats-Missing-CH-CH.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/02/2020-PGTS-Booklet-FINAL-UPDATED.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/02/Sibanda-Noel-280.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/02/Workshop-Katsekera.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/02/Workshop-Ngwaru.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/02/World-Divisions-Recommendations.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/03/Baptism-ACMS-Form-English.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/03/Baptism-ACMS-Form-French.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/03/Baptism-ACMS-Form-Portuguese.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/03/CONVID-19-Book.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/03/COVIBOOK.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/03/COVIbook-French.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/04/Talking-to-Kids-About-the-Corona-Virus.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/2015-Seventh-day-Adventist-Church-Manual.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/Church-Manual-2015.-PT.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/Manuel-d-eglise-Revision-2015-2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/06/ASTR-Final-Flyer-2020_2_Page_1-732x1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/06/Apelo-EN.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/06/Apelo.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/06/Eng.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/06/French.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/06/Port.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/06/SID-C19-COP-Digital-506x523-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/06/SID-C19-COP-Pulpit-Appeal-FR-1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/06/SID-Logo-Text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/06/SID-Portuguese-C19-COP-Bulletin-Inserts-A5-2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/10/Reports-and-eLearning2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/02/I-will-go-1024x407.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/ACMS-Conference-Manual-.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/ACMS-Local-Church-Manual.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/Screenshot-2021-03-02-at-08.52.11-1024x567.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/05/How-to-Process-Remittance-from-Churches-at-the-Conference.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/05/What-is-ACMS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/06/Adventurer_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/06/Ambassador_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/06/CPC-Original-Doc-Edited-Nov-2017-Print-Version-1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/06/Commonly-Asked-Questions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/06/Drug-Awareness-May2021-Dr-Mwate.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/06/Pathfinder_logo-292x300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/06/Pathfinder_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/06/SYL-Logo-768x775-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/06/master_guide_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/07/2018SYL_Curriculum-Final-2048x1583-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/07/CHAPLAINCY-Affirmation-Form-2019.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/07/The-AY-Song.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/07/The-Youth-of-the-World-1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/11/AHSRA-Presentation-Proper-2.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/11/Ratio-Adv-Population-1024x249.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/05/ACMS-Treasury-Module-New-Version.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2023/03/Membership-Reciew-And-ACMS.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2023/03/Membership-Review-Process.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2023/03/Membership-Review-Report-Process-Steps.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2023/03/Nurture-Retention-and-Audit-Committe-EXCOM.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2023/03/ONGOING-MEMBERSHIP-REVIEW-PROGRAM.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2023/05/100-Membership-Review-Form-Union.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2023/05/6fbee01a-e8d5-4823-97a7-1dba3cf84cb7-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2023/05/Screenshot-2023-05-26-at-11.23.02-1024x283.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2023/09/KEYS-TO-HEALTHY-MINDS-768x464.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2023/10/2022-2656-max-1-228x300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-social-media-buttons-atom-6fcfac6804d51844.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-social-media-buttons-atom-7c9463a036b81844.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-social-media-buttons-atom-bd9e0dc117841844.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-social-media-buttons-atom-be9187c2cc531844.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,20 +369,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2bADJ8v6ND3Brg9RedR9uN29vZg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -52,10 +413,19 @@
       <updated>1705648917643</updated>
       <workItem from="1705648927815" duration="44000" />
       <workItem from="1705648992371" duration="16000" />
+      <workItem from="1706011376570" duration="1281000" />
+      <workItem from="1706012684276" duration="4227000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
