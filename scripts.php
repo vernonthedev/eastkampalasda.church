@@ -1,4 +1,4 @@
-
+<script type="text/javascript" src="cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="assets/cdn.adventist.org/alps/3/3.12.2/js/script.min.js" type="text/javascript" async></script>
         <script type="text/javascript" src="/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-image-cdn/dist/image-cdndca9.js?minify=false&amp;ver=132249e245926ae3e188" id="jetpack-photon-js"></script>
 <script type="text/javascript" src="/wp-content/plugins/cookie-notice-and-consent-banner/js/cookiebanner41a5.js?ver=1.7.6" id="cncb_banner-js"></script>

@@ -46,7 +46,10 @@ body{--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(13
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
 </style>
 <link rel='stylesheet' id='jetpack_css-css' href='assets/c0.wp.com/p/jetpack/12.8/css/jetpack.css' type='text/css' media='all' />
-<script type="text/javascript" src="assets/c0.wp.com/c/6.4.1/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
 <script type="text/javascript" src="assets/c0.wp.com/c/6.4.1/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
 <link rel="stylesheet" type="text/css" href="mycss/main.css" media="all">
 <link rel='shortlink' href='' />
@@ -151,6 +154,10 @@ body::-webkit-scrollbar {
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
       <!-- Include Tailwind CSS via CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" type="text/css" href="cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
- 
+ <!-- component -->
+<link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
 </head>

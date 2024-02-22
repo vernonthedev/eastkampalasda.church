@@ -14,10 +14,6 @@
     border-radius: 8px;
   }
 
-  .c-hero {
-
-    margin-bottom: 40px;
-  }
 
   img {
   max-width: 100%;
@@ -26,64 +22,7 @@
   vertical-align: middle;
 }
 
-.c-crd {
-  float: left;
-  display: inline-block;
-  padding-left: 1em;
-  padding-bottom: 1em;
-  font-size: 16px;
-  line-height: 24px;
-  width: 100%;
-  transition: transform 0.3s ease-in-out;
-}
 
-.c-crd:hover {
-  transform: scale(1.05); 
-}
-
-
-.c-crds {
-  margin-left: -1em;
-}
-.c-crds:before, .c-crds:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-.c-crds:after {
-  clear: both;
-}
-@media screen and (min-width: 38em) {
-  .c-crd {
-    width: 50%;
-  }
-}
-a.c-crd {
-  color: black;
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.7); 
-}
-
-.c-crd__wrap {
-  overflow: hidden;
-  border-radius: 0.5em;
-  background-color: white;
-  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.05);
-}
-@media screen and (min-width: 38em) {
-  .c-crd__wrap {
-    height: 20em;
-  }
-}
-.c-crd__img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  height: 14em;
-}
-.c-crd__btm {
-  padding: 1em;
-}
 
 * {
   box-sizing: border-box;
@@ -141,105 +80,64 @@ h3 {
   font-family: "noto serif", Georgia, Times, times new roman, serif;
 }
 
+.custom-slide-transition {
+      opacity: 0;
+      transform: translateY(50px);
+      transition: opacity 0.5s, transform 0.5s;
+    }
 
 </style>
 
-<header class="c-hero c-page-header c-page-header__feature">
+<header class="c-hero c-page-header c-page-header__feature" style="margin-top: 0px;">
   <div class="c-page-header__content">
     <!-- Hero Section 1 -->
     <section class="c-hero-carousel">
-      <div class="c-carousel c-carousel--inset u-position--relative">
-        <div class="c-carousel__slides js-carousel__single-item">
-          <div class="c-carousel__item--inset u-position--relative">
-            <img src="assets/images/go.png" />
-            <div class="c-carousel__item-text__wrap u-theme--background-color-trans--dark">
-              <div class="l-container">
-                <div class="c-carousel__item-text u-spacing--half">
-                  <div class="c-carousel__item-text--inner">
-                    <h2 class="u-font--primary--xl c-carousel__item-heading">
-                      Our Mission
-                    </h2>
-                    <div
-                      class="c-carousel__item-dek u-padding--half--bottom u-theme--primary-transparent-background-color">
-                      <p></p>
-                    </div>
+    <div class="c-carousel c-carousel--inset u-position--relative">
+      <div class="c-carousel__slides js-carousel__single-item">
+        <div class="c-carousel__item--inset u-position--relative">
+          <img src="assets/images/go.png" />
+          <div class="c-carousel__item-text__wrap u-theme--background-color-trans--dark">
+            <div class="l-container">
+              <div class="c-carousel__item-text u-spacing--half">
+                <div class="c-carousel__item-text--inner">
+                  <h2 class="u-font--primary--xl c-carousel__item-heading">
+                    Our Mission
+                  </h2>
+                  <div class="c-carousel__item-dek u-padding--half--bottom u-theme--primary-transparent-background-color">
+                    <p></p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+        <!-- Add another carousel item with a different image -->
+        <div class="c-carousel__item--inset u-position--relative">
+          <img src="assets/images/events.JPG" />
+          <div class="c-carousel__item-text__wrap u-theme--background-color-trans--dark">
+            <div class="l-container">
+              <div class="c-carousel__item-text u-spacing--half">
+                <div class="c-carousel__item-text--inner">
+                  <h2 class="u-font--primary--xl c-carousel__item-heading">
+                    Pathfinder and MasterGuide Investures
+                  </h2>
+                  <div class="c-carousel__item-dek u-padding--half--bottom u-theme--primary-transparent-background-color">
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
-    </section>
+    </div>
+  </section>
   </div>
 </header>
 
-<!-- component -->
-<script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
 
-<article x-data="slider" class="relative w-full flex flex-shrink-0 overflow-hidden shadow-2xl">
-    <div class="rounded-full bg-gray-600 text-white absolute top-5 right-5 text-sm px-2 text-center z-10">
-        <span x-text="currentIndex"></span>/
-        <span x-text="images.length"></span>
-    </div>
-
-    <template x-for="(image, index) in images">
-        <figure class="h-96" x-show="currentIndex == index + 1" x-transition:enter="transition transform duration-300"
-        x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"
-        x-transition:leave="transition transform duration-300" x-transition:leave-start="opacity-100"
-        x-transition:leave-end="opacity-0">
-        <img :src="image" alt="Image" class="absolute inset-0 z-10 h-full w-full object-cover opacity-70" />
-        <figcaption class="absolute inset-x-0 bottom-1 z-20 w-96 mx-auto p-4 font-light text-sm text-center tracking-widest leading-snug bg-gray-300 bg-opacity-25">
-            Any kind of content here!
-            Primum in nostrane potestate est, quid meminerimus? Nulla erit controversia. Vestri haec verecundius, illi fortasse constantius. 
-        </figcaption>
-        </figure>
-    </template>
-
-    <button @click="back()"
-        class="absolute left-14 top-1/2 -translate-y-1/2 w-11 h-11 flex justify-center items-center rounded-full shadow-md z-10 bg-gray-100 hover:bg-gray-200">
-        <svg class=" w-8 h-8 font-bold transition duration-500 ease-in-out transform motion-reduce:transform-none text-gray-500 hover:text-gray-600 hover:-translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7">
-            </path>
-        </svg>
-    </button>
-
-    <button @click="next()"
-    class="absolute right-14 top-1/2 translate-y-1/2 w-11 h-11 flex justify-center items-center rounded-full shadow-md z-10 bg-gray-100 hover:bg-gray-200">
-        <svg class=" w-8 h-8 font-bold transition duration-500 ease-in-out transform motion-reduce:transform-none text-gray-500 hover:text-gray-600 hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path>
-        </svg>
-    </button>
-</article>
-
-<script>
-    document.addEventListener('alpine:init', () => {
-        Alpine.data('slider', () => ({
-            currentIndex: 1,
-            images: [
-                'assets/images/go.png',
-                'https://source.unsplash.com/1600x900/?cat',
-                'https://source.unsplash.com/1600x900/?dog',
-                'https://source.unsplash.com/1600x900/?lego',
-                'https://source.unsplash.com/1600x900/?textures&patterns'
-            ],
-            back() {
-                if (this.currentIndex > 1) {
-                    this.currentIndex = this.currentIndex - 1;
-                }
-            },
-            next() {
-                if (this.currentIndex < this.images.length) {
-                    this.currentIndex = this.currentIndex + 1;
-                } else if (this.currentIndex <= this.images.length){
-                    this.currentIndex = this.images.length - this.currentIndex + 1
-                }
-            },
-        }))
-    })
-</script>
 
 <main class="l-main">
 <section class="l-main__content l-grid l-grid--7-col u-shift--left--1-col--at-large l-grid-wrap--6-of-7 u-spacing--double--until-xxlarge u-padding--zero--sides">
@@ -327,52 +225,14 @@ h3 {
   </section>
 
 
-<!-- Custom widgets -->
-<div class='o-c'>
-  <div class='c-crds'>
-
-    <a class='c-crd' href='daily-devotion.php'>
-      <div class='c-crd__wrap'>
-        <img class="c-crd__img " src="https://st2.depositphotos.com/2021995/6621/i/450/depositphotos_66218195-stock-photo-sermon-concept-metal-letterpress-word.jpg" alt="Sermons from East Kampala Seventh-day Adventist Church">
-        <div class='c-crd__btm'>
-          <h3>Our Sermons</h3>
-        </div>
-      </div>
-    </a>
-    
-    <a class='c-crd' href="audio-sermons.php">
-      <div class='c-crd__wrap'>
-        <img class="c-crd__img" src="https://www.brooklyntabernacle.org/wp-content/uploads/2020/08/Audio-Sermons-Online-Slide.jpg" alt="Audio Sermons from East Kampala Seventh-day Adventist Church">
-        <div class='c-crd__btm'>
-          <h3>Audio Sermons</h3>
-        </div>
-      </div>
-    </a>
-    <a class='c-crd' href="gallery.php">
-      <div class='c-crd__wrap'>
-        <img class="c-crd__img" src="assets/images/events.JPG" alt="Latest Events from East Kampala Seventh-day Adventist Church">
-        <div class='c-crd__btm'>
-          <h3>Image Archives</h3>
-        </div>
-      </div>
-    </a>
-    <a class='c-crd' href="announcements.php">
-      <div class='c-crd__wrap'>
-        <img class="c-crd__img" src="https://t3.ftcdn.net/jpg/03/13/59/86/360_F_313598699_jyO0OFvaccHWe9YsAY1s8Ycpf0qVPIVz.jpg" alt="Latest Announcements from East Kampala Seventh-day Adventist Church">
-        <div class='c-crd__btm'>
-          <h3>Latest Announcements</h3>
-        </div>
-      </div>
-    </a>
-  </div>
-</div>
-
 
 
 
 
   
 </main>
+
+
 
 
 
@@ -699,7 +559,7 @@ h3 {
     <div class="container px-6 py-10 mx-auto">
         <div class="xl:flex xl:items-center xL:-mx-4">
             <div class="xl:w-1/2 xl:mx-4">
-                <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">Message From Our Pastors</h1>
+                <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">Message From Our Leaders</h1>
                 
                 <p class="max-w-2xl mt-4 text-gray-500 dark:text-gray-300">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt ex placeat modi magni quia error alias, adipisci rem similique, at omnis eligendi optio eos harum.
@@ -708,19 +568,19 @@ h3 {
             
             <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-0 xl:mx-4 xl:w-1/2 md:grid-cols-2">
                 <div>
-                    <img class="object-cover rounded-xl h-64 w-full" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="">
+                    <img class="object-cover rounded-xl h-64 w-full" src="assets/images/mutakoha.jpg" alt="Pastor Denis Mutakoha EKC">
                     
-                    <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">John Doe</h1>
+                    <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Pr. Mutakoha Denis</h1>
                     
-                    <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">Full stack developer</p>
+                    <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">Church Pastor</p>
                 </div>
 
                 <div>
-                    <img class="object-cover rounded-xl h-64 w-full" src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+                    <img class="object-cover rounded-xl h-64 w-full" src="assets/images/biraro.jpg" alt="Elder Samuel Biraro EKC">
                     
-                    <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Mia</h1>
+                    <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Eld. Samuel Biraro</h1>
                     
-                    <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">Graphic Designer</p>
+                    <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">Church Elder</p>
                 </div>
             </div>
         </div>
@@ -728,6 +588,41 @@ h3 {
 </section>
 
 <?php include "footer.php"; ?>
+
+<script>
+  $(document).ready(function() {
+    // Set the interval for sliding every 2 seconds (2000 milliseconds)
+    setInterval(function() {
+      // Trigger the next slide
+      $(".js-carousel__single-item").slick("slickNext");
+    }, 3000);
+
+//     // Initialize the Slick carousel (you need to include the Slick library)
+//     $(".js-carousel__single-item").slick({
+//   dots: true,
+//   slidesToShow: 1,
+//   slidesToScroll: 1,
+//   cssEase: 'cubic-bezier(0.68, -0.55, 0.27, 1.55)',
+//   // Other options as needed
+// });
+
+// Initialize the Slick carousel with custom options
+$(".js-carousel__single-item").slick({
+      dots: true,
+      cssEase: 'linear', // Ensure a linear transition between slides
+      customPaging: function(slider, i) {
+        return '<a class="slick-dot"></a>';
+      },
+      appendDots: $(".c-carousel__slides"), // Append dots to your custom container
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      // Use the custom slide transition
+      css: 'custom-slide-transition',
+      // Other options as needed
+    });
+  });
+</script>
 <?php include "scripts.php"; ?>
 </body>
 

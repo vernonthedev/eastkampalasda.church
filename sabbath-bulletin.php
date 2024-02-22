@@ -1,231 +1,154 @@
 <!doctype html>
 <html class="u-theme--denim" lang="en-US">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<?php include "head.php"; ?>
-<?php include "loading.php"; ?>
-<?php include "header.php"; ?>
-<?php include "config.php"; ?>
+    <?php include "head.php"; ?>
+    <?php include "config.php"; ?>
+    <?php include "loading.php"; ?>
+    <style>
+        /* Base styles for larger screens */
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(20%, 1fr)); /* About 5 images per row */
+            grid-gap: 20px;
+            justify-items: center; /* Align items in the center horizontally */
+            align-items: center; /* Align items in the center vertically */
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden; /* Ensure no extra space due to varying image sizes */
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensure images cover the entire area */
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        /* Lightbox styles */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 9999; /* Set a high z-index value */
+        }
+
+        .lightbox img {
+            max-width: 80%;
+            max-height: 80%;
+            border-radius: 8px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .pagination li a {
+            margin: 0 5px; /* Adjust the value as needed */
+        }
+
+        /* Responsive styles for smaller screens (less than 768px) */
+        @media (max-width: 768px) {
+            .gallery-container {
+                grid-template-columns: repeat(auto-fill, minmax(40%, 1fr)); /* 2 images per row on smaller screens */
+            }
+        }
+    </style>
 
 
-<!-- component -->
-<section class="py-4">
-<div class="min-h-screen  bg-gray-200  flex flex-wrap items-center  justify-center  ">
-            
-            <div class="flex flex-col sm:flex-col lg:flex-row xl:flex-row md:flex-row justify-center items center  container   ">
-            <div class="py-12 sm:py-12 md:py-6 lg:py-6 xl:py-6 px-8 w-full md:max-w-min sm:w-full bg-white z-30">
-                <h1 class="text-gray-500 font-semibold text-xl ">Seventh-day Adventist Church</h1>
-                    <div class="text-center py-4 px-7">
-                        <h1 class="text-gray-700 text-4xl font-black">EastKampala</h1>
-                        <p class="text-gray-500  mt-2">Kira-Kimwanyi</p>
-                        
-                    </div>
-                    <div class="h-px bg-gray-200"></div>
-                    <div class="text-center mt-3">
-                        <p class="text-sm text-gray-400">
-                      O worship the Lord in the beauty of holiness: Fear before Him, all the earth. Psalms:96:9
-                      <img src="assets/images/church.jpg" alt="East Kampala Seventh Day Adventist Church Picture"/>
-                        </p>
-                    </div>
-                    <button class="w-full mt-6 mb-3 py-2 text-white font-semibold bg-gray-700 hover:shadow-xl duration-200 hover:bg-gray-800" style="border-radius: 0px;">HAPPY SABBATH</button>
-                    <div class="h-px bg-gray-200"></div>
-                    <?php
+<body>
+    <?php include "header.php"; ?>
 
-    // get all the theme content from the db and display them 
-    $sql = "SELECT * FROM theme ORDER BY theme_id DESC LIMIT 1";
-    $run_query = $conn->prepare($sql);
-    $run_query->execute();
-    $rows = $run_query->fetchAll();
-    foreach ($rows as $row) {
+    <header class="c-page-header c-page-header__long u-theme--background-color--dark  u-space--zero--top ">
+        <div class="c-page-header__long--inner l-grid l-grid--7-col ">
+            <div class="c-page-header__content c-page-header__long__content l-grid-wrap l-grid-wrap--5-of-7 u-shift--left--1-col--at-xxlarge">
+                <h1 class="u-font--primary--xl u-color--white u-font-weight--bold">
+                    Gallery
+                </h1>
+            </div>
+        </div>
+    </header>
+
+    <section id="top" class="l-main__content u-padding--zero--sides">
+        <div class="gallery-container">
+            <?php
+            // Pagination setup
+            $itemsPerPage = 20; // Increase this number to ensure enough items are fetched
+            $current_page = isset($_GET['page']) ? (int) $_GET['page'] : 1;
+            $offset = ($current_page - 1) * $itemsPerPage;
+
+            $sql = "SELECT * FROM image_gallery ORDER BY gallery_id DESC LIMIT $offset, $itemsPerPage";
+            $run_query = $conn->prepare($sql);
+            $run_query->execute();
+            $rows = $run_query->fetchAll();
+            foreach ($rows as $row) {
+            ?>
+                <div class="gallery-item" data-image="admin/images-gallery/<?php echo $row->gallery_img; ?>" data-title="<?php echo $row->gallery_title; ?>">
+                    <img src="admin/images-gallery/<?php echo $row->gallery_img; ?>" alt="<?php echo $row->gallery_title; ?>" style="max-width:100%; max-height:100%;"/>
+                </div>
+            <?php
+            }
+            ?>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <img src="" alt="Lightbox Image" />
+    </div>
+
+    <ul class="pagination">
+        <?php
+        $total_records = $conn->query("SELECT COUNT(*) FROM image_gallery")->fetchColumn();
+        $total_pages = ceil($total_records / $itemsPerPage);
+
+        for ($page = 1; $page <= $total_pages; $page++) {
+            echo "<li" . ($page == $current_page ? ' class="active"' : '') . ">";
+            echo "<a href='gallery.php?page=" . $page . "'>" . $page . "</a>";
+            echo "</li>";
+        }
         ?>
-                    <div class="text-left mt-3">
-                        <p class="text-m text-dark-400">
-                      <b>THEME:</b>  <?php echo $row->theme_title; ?>
-                        </p>
-                        <p class="text-m text-dark-400">
-                      <b>SERMON:</b>  <?php echo $row->theme_sermon; ?>
-                        </p>
-                        <p class="text-sm text-dark-400">
-                      <b>PREACHER: </b> <?php echo $row->theme_preacher; ?>
-                        </p>
-                        <p class="text-m text-dark-400">
-                      <b>KEY TEXT:</b>  <?php echo $row->theme_text; ?>
-                        </p>
-                        <p class="text-m text-dark-400">
-                      <b>SPECIAL MUSIC:</b>  <?php echo $row->theme_music; ?>
-                        </p>
-                    </div>
-                </div>
-                <?php
-    }
-    ?>
+    </ul>
 
-                <div class="py-12 sm:py-12 md:py-6 lg:py-6 xl:py-6 px-8 w-full md:max-w-min sm:w-full z-30 bg-purple-400 transform scale-1 sm:scale-1 md:scale-105 lg:scale-105 xl:scale-105 z-40  shadow-none sm:shadow-none md:shadow-xl lg:shadow-xl xl:shadow-xl">
-                    <h1 class="text-purple-200 font-semibold text-xl ">EKC</h1>
-                    <div class="text-center py-4 px-7">
-                    <h1 class="text-gray-700 text-4xl font-black ">OrderOfSabbath Worship</h1>
-                    <div class="h-px bg-gray-200"></div>
-                        <p class="text-white text-opacity-100 mt-2 font-semibold">Song Service ==>8:00am - 9:00am</p>
-                        <div class="text-center mt-3">
-                        <p class="text-sm text-white text-opacity-80">
-                        Hymns of praise to our God through music - Choristers
-                        </p>
-                    </div>
-                        <p class="text-white text-opacity-100 mt-2 font-semibold">Sabbath School ==> 8:00am - 9:00am</p>
-                        <p class="text-white text-opacity-100 mt-2 font-semibold">The Church At Study ==> 8:00am - 9:00am</p>
-                        <p class="text-white text-opacity-100 mt-2 font-semibold">Song Service & Prayer Session ==> 8:00am - 9:00am</p>
-                        <p class="text-white text-opacity-100 mt-2 font-semibold">Divine Service ==> 8:00am - 9:00am</p>
-                        
-                    </div>
-                    <div class="h-px bg-purple-400"></div>
-                    <div class="text-center mt-3">
-                        <p class="text-sm text-white text-opacity-80">
-                        God is present let us worship Him.
-                        </p>
-                    </div>
-                    <button class="w-full mt-6 mb-3 py-2 text-white font-semibold bg-purple-400 hover:shadow-xl duration-200 hover:bg-purple-800" style="border-radius: 0px;">BE BLESSED</button>
-                </div>
-                <div class="py-12 sm:py-12 md:py-6 lg:py-6 xl:py-6 px-8 w-full md:max-w-min sm:w-full bg-white z-30">
-                <h1 class="text-gray-500 font-semibold text-xl ">EKC </h1>
-                
-                    <div class="text-center py-4 px-7">
-                        <h1 class="text-gray-700 text-4xl font-black">Afternoon Program</h1>
-                        <div class="h-px bg-gray-200"></div>
-                        <p class="text-gray-500  mt-2">Fellowship Lunch ==> 12:30-2:00pm</p>
-                        <p class="text-gray-500  mt-2">Caring And Sharing ==> 2:00-4:00pm</p>
-                        <p class="text-gray-500  mt-2">Outreach ==> 4:00-5:00pm</p>
-                        <p class="text-gray-500  mt-2">Sundown, Tea and Departure ==> 5:00-6:00pm</p>
-                        
-                    </div>
-                    <div class="h-px bg-gray-200"></div>
-                    <div class="text-center mt-3">
-                    <h1 class="text-gray-500 font-semibold text-xl ">Healthy Tip</h1>
-                        <p class="text-sm text-gray-400">
-                        Start your day with a glass of water. 
-                        Your body does quite a few hours without hydration as you sleep. Drinking a full glass of water in the morning can aid digestion, flush out toxins, enhance skin health and give you an energy boost.
-                        </p>
-                    </div>
-                    <button class="w-full mt-6 mb-3 py-2 text-white font-semibold bg-gray-700 hover:shadow-xl duration-200 hover:bg-gray-800"  style="border-radius: 0px;">HEALTHY LIVING</button>
-                </div>
-            </div>
-             
-        </div>
+    <?php include "footer.php"; ?>
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
-        <!-- component -->
-<div class="min-h-screen  bg-gray-200  flex flex-wrap items-center  justify-center  ">
-            
-            <div class="flex flex-col sm:flex-col lg:flex-row xl:flex-row md:flex-row justify-center items center  container   ">
-              
-            <div class="py-12 sm:py-12 md:py-6 lg:py-6 xl:py-6 px-8 w-full md:max-w-min sm:w-full bg-white z-30">
-            <h1 class="text-gray-500 font-semibold text-xl ">EKC </h1>
-                    <div class="text-center py-4 px-7">
-                        <h1 class="text-gray-700 text-4xl font-black">DivineWorship Service</h1>
-                        <p class="text-gray-500  mt-2">God is present: Let us Worship Him.</p>
-                       
-                    </div>
-                    <div class="h-px bg-gray-200"></div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const galleryItems = document.querySelectorAll(".gallery-item");
+            const lightbox = document.querySelector(".lightbox");
 
-                    <?php
+            galleryItems.forEach(item => {
+                item.addEventListener("click", function () {
+                    const imageSrc = this.getAttribute("data-image");
+                    const imageAlt = this.getAttribute("data-title");
 
-// get all the serving team content from the db and display them 
-$sql = "SELECT * FROM serving_team ORDER BY id DESC LIMIT 1";
-$run_query = $conn->prepare($sql);
-$run_query->execute();
-$rows = $run_query->fetchAll();
-foreach ($rows as $row) {
-    ?>
-                    <div class="text-center mt-3">
-                        <p class="text-m text-dark-400"><b>INTROIT</b>: "Surely the presence of the Lord is in this place(Genesis:28:16)"</p>
-                        <p class="text-m text-dark-400"><b>Congregation stands as pulpit team enters.</b></p>
-                        <p class="text-m text-dark-400"><b>CALL TO WORSHIP: </b><?php echo $row->call_to_worship; ?></p>
-                        <p class="text-m text-dark-400"><b>DOXOLOGY:</b> "Glory be to the Father"</p>
-                        <p class="text-m text-dark-400"><b>INVOCATION: </b><?php echo $row->invocation; ?></p>
-                        <p class="text-m text-dark-400"><b>WELCOME AND INTRODUCTION:</b> <?php echo $row->welcome; ?></p>
-                        <p class="text-m text-dark-400"><b>WELCOME SONG:</b> "Family of God(Psalms:34:3)"</p>
-                        <p class="text-m text-dark-400"><b>OPENING SONG:</b> </p>
-                        <p class="text-m text-dark-400"><b>PASTORAL PRAYER:</b> <?php echo $row->pastoral; ?></p>
-                        <p class="text-m text-dark-400"><b>PRAYER SONG:</b> "Blessed be the name of the Lord(Psalms:72:19)"</p>
-                        <p class="text-m text-dark-400"><b>WORSHIP IN GIVING:</b> <?php echo $row->worship; ?></p>
-                        <p class="text-m text-dark-400"><b>SPECIAL MUSIC:</b><?php echo $row->collection_music; ?> </p>
-                        <p class="text-m text-dark-400"><b>Congregation stands as deacons bring offerings</b></p>
-                        <p class="text-m text-dark-400"><b>SCRIPTURE:</b> <?php echo $row->scripture; ?></p>
-                        <p class="text-m text-dark-400"><b>SPECIAL MUSIC:</b> <?php echo $row->special_music; ?></p>
-                        <p class="text-m text-dark-400"><b>SERMON:</b> <?php echo $row->sermon; ?></p>
-                        <p class="text-m text-dark-400"><b>CLOSING HYMN:</b> <?php echo $row->closing; ?></p>
-                        <p class="text-m text-dark-400"><b>BENEDICTION:</b> <?php echo $row->sermon; ?></p>
-                        <p class="text-m text-dark-400"><b>SONG OF AFFIRMATION:</b> "Be Exalted O God(Psalms:57:11-20)"</p>
-                        <p class="text-m text-dark-400"><b>RECESSIONAL:</b> Hmyn selected by Choristers </p>
-                    </div>
-                    <?php
-    }
-    ?> 
-                    <button class="w-full mt-6 mb-3 py-2 text-white font-semibold bg-gray-700 hover:shadow-xl duration-200 hover:bg-gray-800" style="border-radius: 0px;">HAPPY SABBATH</button>
+                    lightbox.innerHTML = `<img src="${imageSrc}" alt="${imageAlt}"/>`;
+                    lightbox.style.display = "flex";
+                });
+            });
 
-                    <div class="h-px bg-gray-200"></div>
-                    <p class="text-m text-dark-400">Please exit the sanctuary quietly and with reverence.</p>
-                </div>
+            lightbox.addEventListener("click", function () {
+                lightbox.style.display = "none";
+                lightbox.innerHTML = "";
+            });
+        });
+    </script>
 
-                <div class="py-12 sm:py-12 md:py-6 lg:py-6 xl:py-6 px-8 w-full md:max-w-min sm:w-full z-30 bg-purple-400 transform scale-1 sm:scale-1 md:scale-105 lg:scale-105 xl:scale-105 z-40  shadow-none sm:shadow-none md:shadow-xl lg:shadow-xl xl:shadow-xl">
-                    <h1 class="text-purple-200 font-semibold text-xl ">EKC</h1>
-                    <div class="h-px bg-purple-400"></div>
-                    <?php
+    <?php include 'scripts.php'; ?>
+</body>
 
-// get all the theme content from the db and display them 
-$sql = "SELECT * FROM songs ORDER BY id DESC LIMIT 1";
-$run_query = $conn->prepare($sql);
-$run_query->execute();
-$rows = $run_query->fetchAll();
-foreach ($rows as $row) {
-    ?>
-                    <div class="text-center mt-3">
-                    <h1 class="text-gray-700 text-4xl font-black">WorshipService</h1>
-                        
-                        Introit: 
-                        <p class="text-sm text-white "><?php echo $row->introit; ?></p>
-                        
-                        Call to Worship: <p class="text-sm text-white "><?php echo $row->call_to_worship; ?>
-                        </p>
-                        
-                        Doxology:  <p class="text-sm text-white "><?php echo $row->doxology; ?>
-                        </p>
-                      
-                        Welcome Song:  <p class="text-sm text-white "><?php echo $row->welcome; ?>
-                        </p>
-                        
-                        Prayer Song:  <p class="text-sm text-white "><?php echo $row->prayer_song; ?>
-                        </p>
-                       
-                        Affirmation:  <p class="text-sm text-white "><?php echo $row->affirmation; ?>
-                        </p>
-                    </div>
-                    
-                </div>
-                <div class="py-12 sm:py-12 md:py-6 lg:py-6 xl:py-6 px-8 w-full md:max-w-min sm:w-full bg-white z-30">
-                <h1 class="text-gray-500 font-semibold text-xl ">EKC </h1>
-                    <div class="text-center py-4 px-7">
-                        <h1 class="text-gray-700 text-4xl font-black">OpeningSong</h1>
-                        <div class="h-px bg-gray-200"></div>
-                        <p class="text-gray-500  mt-2"><?php echo $row->opening; ?></p>
-                        
-</div>
-<div class="text-center py-4 px-7">
-<h1 class="text-gray-700 text-4xl font-black">ClosingSong</h1>
-<div class="h-px bg-gray-200"></div>
-<p class="text-gray-500  mt-2"><?php echo $row->closing; ?></p>
-</div>
-<?php
-    }
-    ?>  
-                </div>
-            </div>
-             
-        </div>
-
-</section>
-        <?php include "footer.php"; ?>
-        <?php include "scripts.php"; ?>
+</html>

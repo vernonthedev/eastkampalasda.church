@@ -4,67 +4,67 @@
     <?php include "config.php"; ?>
     <?php include "loading.php"; ?>
     <style>
- /* Base styles for larger screens */
-.gallery-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+        /* Base styles for larger screens */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-auto-rows: 200px; /* Set a fixed height for each row */
+            grid-gap: 10px;
+        }
 
-.gallery-item {
-    flex: 0 1 calc(25% - 10px); /* 4 items per row with margin */
-    margin: 10px;
-    cursor: pointer;
-}
+        .gallery-item {
+            position: relative;
+            overflow: hidden; /* Ensure no extra space due to varying image sizes */
+            border-radius: 8px;
+            cursor: pointer;
+        }
 
-.gallery-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-}
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensure images cover the entire area */
+            transition: transform 0.3s ease;
+        }
 
-.gallery-item:hover img {
-    transform: scale(1.1);
-}
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
 
-/* Lightbox styles */
-.lightbox {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    justify-content: center;
-    align-items: center;
-    z-index: 9999; /* Set a high z-index value */
-}
+        /* Lightbox styles */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 9999; /* Set a high z-index value */
+        }
 
-.lightbox img {
-    max-width: 80%;
-    max-height: 80%;
-    border-radius: 8px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-}
-.pagination li a {
-  margin: 0 5px; /* Adjust the value as needed */
-}
+        .lightbox img {
+            max-width: 80%;
+            max-height: 80%;
+            border-radius: 8px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
 
-/* Responsive styles for smaller screens (less than 768px) */
-@media (max-width: 768px) {
-    .gallery-item {
-        flex: 0 1 calc(100% - 10px); /* 2 items per row on smaller screens */
-    }
-}
+        .pagination li a {
+            margin: 0 5px; /* Adjust the value as needed */
+        }
 
+        /* Responsive styles for smaller screens (less than 768px) */
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(auto-fill, minmax(40%, 1fr)); /* 2 images per row on smaller screens */
+            }
+        }
     </style>
-
 
 <body>
     <?php include "header.php"; ?>
@@ -79,25 +79,27 @@
         </div>
     </header>
 
-    <section id="top" class="l-main__content l-grid l-grid--7-col   u-padding--zero--sides">
-        <?php
-        // Pagination setup
-        $itemsPerPage = 4;
-        $current_page = isset($_GET['page']) ? (int) $_GET['page'] : 1;
-        $offset = ($current_page - 1) * $itemsPerPage;
+    <section id="top" class="l-main__content">
+        <div class="gallery">
+            <?php
+            // Pagination setup
+            $itemsPerPage = 10;
+            $current_page = isset($_GET['page']) ? (int) $_GET['page'] : 1;
+            $offset = ($current_page - 1) * $itemsPerPage;
 
-        $sql = "SELECT * FROM image_gallery ORDER BY gallery_id DESC LIMIT $offset, $itemsPerPage";
-        $run_query = $conn->prepare($sql);
-        $run_query->execute();
-        $rows = $run_query->fetchAll();
-        foreach ($rows as $row) {
-        ?>
-            <div class="gallery-item" data-image="admin/images-gallery/<?php echo $row->gallery_img; ?>" data-title="<?php echo $row->gallery_title; ?>">
-                <img src="admin/images-gallery/<?php echo $row->gallery_img; ?>" alt="<?php echo $row->gallery_title; ?>" />
-            </div>
-        <?php
-        }
-        ?>
+            $sql = "SELECT * FROM image_gallery ORDER BY gallery_id DESC LIMIT $offset, $itemsPerPage";
+            $run_query = $conn->prepare($sql);
+            $run_query->execute();
+            $rows = $run_query->fetchAll();
+            foreach ($rows as $row) {
+            ?>
+                <div class="gallery-item" data-image="admin/images-gallery/<?php echo $row->gallery_img; ?>" data-title="<?php echo $row->gallery_title; ?>">
+                    <img src="admin/images-gallery/<?php echo $row->gallery_img; ?>" alt="<?php echo $row->gallery_title; ?>" />
+                </div>
+            <?php
+            }
+            ?>
+        </div>
     </section>
 
     <!-- Lightbox -->
@@ -106,17 +108,17 @@
     </div>
 
     <ul class="pagination">
-  <?php
-  $total_records = $conn->query("SELECT COUNT(*) FROM image_gallery")->fetchColumn();
-  $total_pages = ceil($total_records / $itemsPerPage);
+        <?php
+        $total_records = $conn->query("SELECT COUNT(*) FROM image_gallery")->fetchColumn();
+        $total_pages = ceil($total_records / $itemsPerPage);
 
-  for ($page = 1; $page <= $total_pages; $page++) {
-    echo "<li" . ($page == $current_page ? ' class="active"' : '') . ">";
-    echo "<a href='gallery.php?page=" . $page . "'>" . $page . "</a>";
-    echo "</li>";
-  }
-  ?>
-</ul>
+        for ($page = 1; $page <= $total_pages; $page++) {
+            echo "<li" . ($page == $current_page ? ' class="active"' : '') . ">";
+            echo "<a href='gallery.php?page=" . $page . "'>" . $page . "</a>";
+            echo "</li>";
+        }
+        ?>
+    </ul>
 
     <?php include "footer.php"; ?>
 
