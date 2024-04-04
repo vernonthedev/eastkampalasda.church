@@ -1,17 +1,15 @@
 
 <script src="assets/js/sweetalert.js"></script>
 
-<script type="text/javascript" src="cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="assets/cdn.adventist.org/alps/3/3.12.2/js/script.min.js" type="text/javascript" async></script>
-        <script type="text/javascript" src="/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-image-cdn/dist/image-cdndca9.js?minify=false&amp;ver=132249e245926ae3e188" id="jetpack-photon-js"></script>
-<script type="text/javascript" src="/wp-content/plugins/cookie-notice-and-consent-banner/js/cookiebanner41a5.js?ver=1.7.6" id="cncb_banner-js"></script>
+    
 <script type="text/javascript" id="cncb_banner_init-js-extra">
 /* <![CDATA[ */
 var cncb_plugin_object = {"theme":"CodGrayWhite","type":"confirm","bannerBlockType":"line","position":"bottom","corner":"rectangle","buttonType":"blank-round","blind":{"visible":0},"message":{"html":"We use cookies to personalize content and ads, to provide social media features, and to analyze our traffic. We also share information about your use of our site with our social media, advertising, and analytics partners.","styles":[]},"link":{"html":"POPI Act","href":"https:\/\/eastkampalasda.church\/cookie-policy\/","styles":{"display":"none"},"stylesHover":[]},"buttonDirection":"row","buttonAllow":{"html":"Accept","styles":{"border-style":"solid"},"stylesHover":{"border-style":"solid"}},"buttonDismiss":{"html":"OK","styles":{"border-style":"solid"},"stylesHover":{"border-style":"solid"}},"buttonDecline":{"html":"Decline","styles":{"border-style":"solid"},"stylesHover":{"border-style":"solid"}},"animationType":"no","animationDelay":"0ms","animationDuration":"600ms","popupStyles":{"border-style":"solid","margin-top":"auto","margin-right":"auto","margin-bottom":"auto","margin-left":"auto"},"accept":[],"refreshonallow":"1"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="/wp-content/plugins/cookie-notice-and-consent-banner/js/cookiebanner-init41a5.js?ver=1.7.6" id="cncb_banner_init-js"></script>
-<script type="text/javascript" src="/wp-content/themes/alps-wordpress-v3/dist/scripts/main20aa.js?ver=1670005090" id="alps/main.js-js"></script>
+
+
 <script defer type="text/javascript" src="assets/stats.wp.com/e-202345.js" id="jetpack-stats-js"></script>
 <script type="text/javascript" id="jetpack-stats-js-after">
 /* <![CDATA[ */
@@ -26,7 +24,7 @@ var PT_CV_PUBLIC = {"_prefix":"pt-cv-","page_to_show":"5","_nonce":"a0486971de",
 var PT_CV_PAGINATION = {"first":"\u00ab","prev":"\u2039","next":"\u203a","last":"\u00bb","goto_first":"Go to first page","goto_prev":"Go to previous page","goto_next":"Go to next page","goto_last":"Go to last page","current_page":"Current page is","goto_page":"Go to page"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="/wp-content/plugins/content-views-query-and-display-post-page/public/assets/js/cva7a0.js?ver=3.6.1" id="pt-cv-content-views-script-js"></script>
+
 <script type="text/javascript" src="assets/c0.wp.com/c/6.4.1/wp-includes/js/comment-reply.min.js" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
       </div> <!-- /.l-content -->
       <aside class="l-wrap__sabbath l-sabbath js-sticky-parent js-toggle-menu ">
