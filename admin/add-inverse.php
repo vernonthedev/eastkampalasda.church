@@ -10,7 +10,7 @@ session_start();
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Add Inverse Lesson | East Kampala SDA Church</title>
+    <title>Add Bulletin PDF | East Kampala SDA Church</title>
     <?php include'style.php'; ?>
 </head>
 
@@ -26,12 +26,12 @@ session_start();
 <div class="row">
     <div class="col-12">
         <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-            <h4 class="mb-sm-0 font-size-18">Add Inverse Bible Study Lesson</h4>
+            <h4 class="mb-sm-0 font-size-18">Add Bulletin PDF</h4>
 
             <div class="page-title-right">
                 <ol class="breadcrumb m-0">
                     <li class="breadcrumb-item"><a href="./">Admin</a></li>
-                    <li class="breadcrumb-item active">Add Inverse Lesson</li>
+                    <li class="breadcrumb-item active">Add Bulletin PDF</li>
                 </ol>
             </div>
 
@@ -44,7 +44,7 @@ session_start();
     <div class="col-12">
         <div class="card">
             <div class="card-header">
-                <h4 class="card-title">Add Inverse Lesson</h4>
+                <h4 class="card-title">Add Bulletin PDF</h4>
             </div>
             <div class="card-body p-4">
 

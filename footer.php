@@ -41,8 +41,8 @@
 <br>
           <strong>Website Links</strong>
           <li><i class="bi bi-house-fill"><a href="daily-devotion.php"> Sermons</a> </i></li>
-          <li><i class="bi bi-house-gear-fill"><a href="family-ministries.php"> Departments</a></i> </li>
-          <li><i class="bi bi-calendar-check-fill"><a href="events.php"> Events</a></i> </li>
+    
+          <li><i class="bi bi-calendar-check-fill"><a href="events.php">News & Events</a></i> </li>
           <li><i class="bi bi-images"><a href="gallery.php"> Image Gallery</a></i></li>
           <li><i class="bi bi-person-lines-fill"><a href="about-us.php"> About Us</a></i>  </li>
           <li><i class="bi bi-camera-video-fill"><a href="live.php"> Livestream</a></i> </li>
@@ -54,9 +54,9 @@
     <div class="l-grid-item l-grid-item--m--3-col l-grid-item--l--2-col c-footer__secondary-nav">
       <nav class="c-footer__secondary-nav__list u-spacing--half">
         <h4>Subscribe to Our Newsletters.</h4>
-        <form class="flex items-center">
+        <form class="flex items-center" method="post" action="#">
     <div class="relative">
-        <input style="border-radius: 25px; width: 350px; color:black;"id="subscribe" name="subscribe" type="email" placeholder="Your email address"
+        <input style="border-radius: 25px; width: 350px; color:black;"id="subscribe" name="subscribe" type="email" placeholder="Your email address" required
             class="pr-12 rounded-full py-2 px-4 border border-gray-300 focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200 transition-all duration-300 w-64" />
         <button type="submit"
             class="absolute right-0 top-0 h-full bg-blue-500 text-white rounded-full px-4 hover:bg-blue-700 focus:outline-none focus:bg-blue-700 transition-all duration-300">

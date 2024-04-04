@@ -6,6 +6,8 @@
 <?php include "header.php"; ?>
 <?php include "config.php"; ?>
 
+
+
 <header class="c-page-header c-page-header__long u-theme--background-color--dark  u-space--zero--top ">
   <div class="c-page-header__long--inner l-grid l-grid--7-col ">
     <div class="c-page-header__content c-page-header__long__content l-grid-wrap l-grid-wrap--5-of-7 u-shift--left--1-col--at-xxlarge">
@@ -39,6 +41,7 @@
             <img
             src="https://media.istockphoto.com/id/1313654813/vector/megaphone-with-exciting-news-speech-bubble-banner-loudspeaker-label-for-business-marketing.jpg?s=612x612&w=0&k=20&c=0Gm0WhT6uMnzhvElm3OB5hu8_Dsn5SvfXfkMNuA_UAw="
             class="object-cover w-full h-full transform duration-700 backdrop-opacity-100"
+            alt="Speaker Annoucement Image"
             />
             <div class="absolute bg-gradient-to-t from-black w-full h-full flex items-end justify-center -inset-y-0"><h1 class="font-bold text-2xl text-white mb-2"><?php echo $row->ann_title; ?></h1></div>
         </div>

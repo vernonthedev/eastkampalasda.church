@@ -9,9 +9,9 @@ $results = $conn->prepare($delete_gallery);
 $results->execute([$recieved]);
 
 if($results->rowCount() > 0){
-    echo '<script>swal("Success","Gallery Image Deleted Successfully", "success");</script>';
+    echo '<script>alert("Gallery Image Deleted Successfully");</script>';
     echo '<script> window.location.href = "image-gallery.php";</script>';
 } else {
-    echo '<script>swal("Error", "Error Deleting Record...", "error");</script>';
+    echo '<script>alert("Error Deleting Record...");</script>';
 }
 ?>

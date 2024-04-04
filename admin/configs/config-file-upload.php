@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
     $fileType = strtolower(pathinfo($targetFile, PATHINFO_EXTENSION));
 
     // check if the file is a pdf and less than 2MB
-    if($fileType != "pdf" || $_FILES["pdfFile"]["size"] > 2000000){
+    if($fileType != "pdf" || $_FILES["pdfFile"]["size"] > 10000000){
         echo '<script> alert("Only PDF Files less than 2MB are allowed to be uploaded.")</script>';
     }else{
         //move the uploaded file to the uploads folder

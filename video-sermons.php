@@ -51,6 +51,20 @@
         </div>
     </header>
 
+
+    <div class="relative h-96 max-w-sm mx-auto mt-20 px-5 py-8 group rounded-3xl bg-gray-200 overflow-hidden shadow-xl">
+         <img src="assets/youtube.jpg" alt="Youtube Image for East Kampala SDA Church" class="absolute w-full h-full inset-0 object-cover">
+         <div class="absolute inset-0 w-full h-full rounded-3xl bg-black bg-opacity-0 transition duration-500 backdrop-filter group-hover:bg-opacity-20 group-hover:backdrop-blur">
+         </div>
+         <div class="absolute inset-x-5 text-white">
+            <h2 class="text-4xl font-semibold mb-2">Our Youtube</h2>
+            <p class="text-sm font-medium uppercase tracking-wider mb-6">Inspiring Videos</p>
+            <p class="hidden group-hover:block">Don't miss out on any wonderful messages shared by East Kampala SDA Church by subscribing to our Youtube Channel.</p>
+            <blockquote class="hidden group-hover:block font-italic">Share With Friends</blockquote>
+         </div>
+         <a href="https://www.youtube.com/@eastkampalasdachurch" target="_blank"><button class="absolute inset-x-5 bottom-8 py-3 rounded-2xl font-semibold bg-white shadow-lg hidden transition duration-200 hover:bg-gray-300 group-hover:block"><i class="bi bi-youtube"></i> Learn more</button></a>
+      </div>
+
     <div class="video-container">
         <?php
         $itemsPerPage = 4; // Adjust the number of videos per row

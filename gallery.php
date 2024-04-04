@@ -120,6 +120,14 @@
         ?>
     </ul>
 
+    <div class="js-this c-inline-sidebar-block c-block u-background-color--gray--light u-border--left u-theme--border-color--darker--left can-be--dark-dark">
+            <div class="c-inline-sidebar-block__header u-padding">
+              <h2 class="c-inline-sidebar-block__title u-theme--color--darker">
+                <span class="u-theme--color--base">Thank You For Visiting East Kampala SDA Church Website! You are warmly invited to come and Worship with us every Sabbath.</span>
+              </h2>
+            </div>
+          </div>
+
     <?php include "footer.php"; ?>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>

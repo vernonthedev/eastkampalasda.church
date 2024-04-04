@@ -160,4 +160,9 @@ body::-webkit-scrollbar {
 <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
 <script src="https://cdn.tailwindcss.com"></script>
 
+<!-- component -->
+<link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+
 </head>

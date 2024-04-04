@@ -59,6 +59,12 @@
                         Sermons</a>
                     </li>
                     <li
+                      class="c-primary-nav__subnav__list-item c-subnav__list-item u-background-color--gray--light u-theme--border-color--dark">
+                      <a href="audio-sermons.php"
+                        class="c-primary-nav__subnav__link c-subnav__link u-color--gray--dark u-theme--link-hover--base ">Audio
+                        Sermons</a>
+                    </li>
+                    <li
                       class="c-primary-nav__subnav__list-item c-subnav__list-item u-background-color--gray--light u-theme--border-color--dark has-subnav js-this">
                       <a href="#"
                         class="c-primary-nav__subnav__link c-subnav__link u-color--gray--dark u-theme--link-hover--base ">Devotions</a>
@@ -76,45 +82,13 @@
 
                       </ul>
                     </li>
-                    <li
-                      class="c-primary-nav__subnav__list-item c-subnav__list-item u-background-color--gray--light u-theme--border-color--dark">
-                      <a href="audio-sermons.php"
-                        class="c-primary-nav__subnav__link c-subnav__link u-color--gray--dark u-theme--link-hover--base ">Audio
-                        Sermons</a>
-                    </li>
+                   
                   </ul>
                 </li>
-                <li class="c-primary-nav__list-item has-subnav">
-                  <a href="#"
-                    class="c-primary-nav__link u-font--primary-nav u-color--gray--dark u-theme--link-hover--base u-theme--border-color--base "><i class="bi bi-house-gear-fill"></i>Departments</a>
-                  <span class="c-primary-nav__arrow c-subnav__arrow o-arrow--down u-path-fill--gray"></span>
-                  <ul class="c-primary-nav__subnav c-subnav">
-
-                    <li
-                      class="c-primary-nav__subnav__list-item c-subnav__list-item u-background-color--gray--light u-theme--border-color--dark">
-                      <a href="childrens-ministry.php"
-                        class="c-primary-nav__subnav__link c-subnav__link u-color--gray--dark u-theme--link-hover--base ">Adventist
-                        Children’s Ministries</a>
-                    </li>
-
-                    <li
-                      class="c-primary-nav__subnav__list-item c-subnav__list-item u-background-color--gray--light u-theme--border-color--dark">
-                      <a href="#"
-                        class="c-primary-nav__subnav__link c-subnav__link u-color--gray--dark u-theme--link-hover--base ">Senior
-                        Youth Ministries</a>
-                    </li>
-
-                    <li
-                      class="c-primary-nav__subnav__list-item c-subnav__list-item u-background-color--gray--light u-theme--border-color--dark">
-                      <a href="#"
-                        class="c-primary-nav__subnav__link c-subnav__link u-color--gray--dark u-theme--link-hover--base ">Women’s
-                        Ministries</a>
-                    </li>
-                  </ul>
-                </li>
+             
                 <li class="c-primary-nav__list-item has-subnav">
                   <a href="events.php"
-                    class="c-primary-nav__link u-font--primary-nav u-color--gray--dark u-theme--link-hover--base u-theme--border-color--base "><i class="bi bi-calendar-check-fill"></i> Events</a>
+                    class="c-primary-nav__link u-font--primary-nav u-color--gray--dark u-theme--link-hover--base u-theme--border-color--base "><i class="bi bi-calendar-check-fill"></i>News & Events</a>
                   <span class="c-primary-nav__arrow c-subnav__arrow o-arrow--down u-path-fill--gray"></span>
                   <ul class="c-primary-nav__subnav c-subnav">
                     <li
@@ -205,6 +179,12 @@
                           Sermons</a>
                       </li>
                       <li
+                        class="c-primary-nav__subnav__list-item c-subnav__list-item u-background-color--gray--light u-theme--border-color--dark">
+                        <a href="audio-sermons.php"
+                          class="c-primary-nav__subnav__link c-subnav__link u-color--gray--dark u-theme--link-hover--base ">Audio
+                          Sermons</a>
+                      </li>
+                      <li
                         class="c-primary-nav__subnav__list-item c-subnav__list-item u-background-color--gray--light u-theme--border-color--dark has-subnav js-this">
                         <a href="#"
                           class="c-primary-nav__subnav__link c-subnav__link u-color--gray--dark u-theme--link-hover--base ">Devotions</a>
@@ -221,28 +201,10 @@
 
                         </ul>
                       </li>
-                      <li
-                        class="c-primary-nav__subnav__list-item c-subnav__list-item u-background-color--gray--light u-theme--border-color--dark">
-                        <a href="audio-sermons.php"
-                          class="c-primary-nav__subnav__link c-subnav__link u-color--gray--dark u-theme--link-hover--base ">Audio
-                          Sermons</a>
-                      </li>
+                      
                     </ul>
                   </li>
-                  <li class="c-primary-nav__list-item has-subnav">
-                    <a href="#"
-                      class="c-primary-nav__link u-font--primary-nav u-color--gray--dark u-theme--link-hover--base u-theme--border-color--base ">Departments</a>
-                    <span class="c-primary-nav__arrow c-subnav__arrow o-arrow--down u-path-fill--gray"></span>
-                    <ul class="c-primary-nav__subnav c-subnav">
-
-                      <li
-                        class="c-primary-nav__subnav__list-item c-subnav__list-item u-background-color--gray--light u-theme--border-color--dark">
-                        <a href="childrens-ministry.php"
-                          class="c-primary-nav__subnav__link c-subnav__link u-color--gray--dark u-theme--link-hover--base ">Adventist
-                          Children’s Ministries</a>
-                      </li>
-                    </ul>
-                  </li>
+                 
                   <li class="c-primary-nav__list-item has-subnav">
                     <a href="#"
                       class="c-primary-nav__link u-font--primary-nav u-color--gray--dark u-theme--link-hover--base u-theme--border-color--base ">Events</a>

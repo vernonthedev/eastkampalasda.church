@@ -18,22 +18,22 @@
           <div class="c-carousel__item--inset u-position--relative">
             <picture class="picture">
               <!--[if IE 9]><video style="display: none;"><![endif]-->
-              <source srcset="https://www.gcyouthministries.org/wp-content/uploads/devotional-banner.jpeg"
+              <source srcset="assets/daily-devotional-banner.jpg"
                 media="(min-width: 1100px)">
-              <source srcset="https://www.gcyouthministries.org/wp-content/uploads/devotional-banner-1100x477.jpeg"
+              <source srcset="assets/daily-devotional-banner.jpg"
                 media="(min-width: 800px)">
-              <source srcset="https://www.gcyouthministries.org/wp-content/uploads/devotional-banner-800x450.jpeg"
+              <source srcset="assets/daily-devotional-banner.jpg"
                 media="(min-width: 500px)">
               <!--[if IE 9]></video><![endif]-->
               <img itemprop="image"
-                srcset="https://www.gcyouthministries.org/wp-content/uploads/devotional-banner-500x280.jpeg" alt>
+                srcset="assets/daily-devotional-banner.jpg" alt>
             </picture>
             <div class="c-carousel__item-text__wrap u-theme--background-color-trans--dark">
               <div class="l-container">
                 <div class="c-carousel__item-text u-spacing--half">
                   <div class="c-carousel__item-text--inner">
                     <h2 class="u-font--primary--xl c-carousel__item-heading">
-                      Devotionals
+                      Keep the morning watch
                     </h2>
                     <div
                       class="c-carousel__item-dek u-padding--half--bottom u-theme--primary-transparent-background-color">
@@ -92,9 +92,9 @@
           </div>
         </div>
         <div class="bg-white py-4 px-3">
-          <h3 class="text-xs mb-2 font-medium"><?php echo $row->news_title; ?></h3>
+          <h3 class="text-medium mb-2 font-medium"><?php echo $row->news_title; ?></h3>
           <div class="flex justify-between items-center">
-            <p class="text-xs text-gray-400">
+            <p class="text-medium text-gray-400">
             <?php echo $newsDate ?> | <strong>Read More</strong>
           </p>
           <div class="relative z-40 flex items-center gap-2">
@@ -151,35 +151,14 @@
 <script type="text/javascript"
   src="/wp-content/plugins/cookie-notice-and-consent-banner/js/cookiebanner41a5.js?ver=1.7.6"
   id="cncb_banner-js"></script>
-<script type="text/javascript" id="cncb_banner_init-js-extra">
-  /* <![CDATA[ */
-  var cncb_plugin_object = { "theme": "CodGrayWhite", "type": "confirm", "bannerBlockType": "line", "position": "bottom", "corner": "rectangle", "buttonType": "blank-round", "blind": { "visible": 0 }, "message": { "html": "We use cookies to personalize content and ads, to provide social media features, and to analyze our traffic. We also share information about your use of our site with our social media, advertising, and analytics partners.", "styles": [] }, "link": { "html": "POPI Act", "href": "https:\/\/eastkampalasda.church\/cookie-policy\/", "styles": { "display": "none" }, "stylesHover": [] }, "buttonDirection": "row", "buttonAllow": { "html": "Accept", "styles": { "border-style": "solid" }, "stylesHover": { "border-style": "solid" } }, "buttonDismiss": { "html": "OK", "styles": { "border-style": "solid" }, "stylesHover": { "border-style": "solid" } }, "buttonDecline": { "html": "Decline", "styles": { "border-style": "solid" }, "stylesHover": { "border-style": "solid" } }, "animationType": "no", "animationDelay": "0ms", "animationDuration": "600ms", "popupStyles": { "border-style": "solid", "margin-top": "auto", "margin-right": "auto", "margin-bottom": "auto", "margin-left": "auto" }, "accept": [], "refreshonallow": "1" };
-  /* ]]> */
-</script>
 <script type="text/javascript"
   src="/wp-content/plugins/cookie-notice-and-consent-banner/js/cookiebanner-init41a5.js?ver=1.7.6"
   id="cncb_banner_init-js"></script>
 <script type="text/javascript" src="/wp-content/themes/alps-wordpress-v3/dist/scripts/main20aa.js?ver=1670005090"
   id="alps/main.js-js"></script>
 <script defer type="text/javascript" src="assets/stats.wp.com/e-202345.js" id="jetpack-stats-js"></script>
-<script type="text/javascript" id="jetpack-stats-js-after">
-  /* <![CDATA[ */
-  _stq = window._stq || [];
-  _stq.push(["view", { v: 'ext', blog: '110147893', post: '1385', tz: '2', srv: 'eastkampalasda.church', j: '1:12.8' }]);
-  _stq.push(["clickTrackerInit", "110147893", "1385"]);
-  /* ]]> */
-</script>
-<script type="text/javascript" id="pt-cv-content-views-script-js-extra">
-  /* <![CDATA[ */
-  var PT_CV_PUBLIC = { "_prefix": "pt-cv-", "page_to_show": "5", "_nonce": "a0486971de", "is_admin": "", "is_mobile": "", "ajaxurl": "https:\/\/eastkampalasda.church\/wp-admin\/admin-ajax.php", "lang": "", "loading_image_src": "data:image\/gif;base64,R0lGODlhDwAPALMPAMrKygwMDJOTkz09PZWVla+vr3p6euTk5M7OzuXl5TMzMwAAAJmZmWZmZszMzP\/\/\/yH\/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgAPACwAAAAADwAPAAAEQvDJaZaZOIcV8iQK8VRX4iTYoAwZ4iCYoAjZ4RxejhVNoT+mRGP4cyF4Pp0N98sBGIBMEMOotl6YZ3S61Bmbkm4mAgAh+QQFCgAPACwAAAAADQANAAAENPDJSRSZeA418itN8QiK8BiLITVsFiyBBIoYqnoewAD4xPw9iY4XLGYSjkQR4UAUD45DLwIAIfkEBQoADwAsAAAAAA8ACQAABC\/wyVlamTi3nSdgwFNdhEJgTJoNyoB9ISYoQmdjiZPcj7EYCAeCF1gEDo4Dz2eIAAAh+QQFCgAPACwCAAAADQANAAAEM\/DJBxiYeLKdX3IJZT1FU0iIg2RNKx3OkZVnZ98ToRD4MyiDnkAh6BkNC0MvsAj0kMpHBAAh+QQFCgAPACwGAAAACQAPAAAEMDC59KpFDll73HkAA2wVY5KgiK5b0RRoI6MuzG6EQqCDMlSGheEhUAgqgUUAFRySIgAh+QQFCgAPACwCAAIADQANAAAEM\/DJKZNLND\/kkKaHc3xk+QAMYDKsiaqmZCxGVjSFFCxB1vwy2oOgIDxuucxAMTAJFAJNBAAh+QQFCgAPACwAAAYADwAJAAAEMNAs86q1yaWwwv2Ig0jUZx3OYa4XoRAfwADXoAwfo1+CIjyFRuEho60aSNYlOPxEAAAh+QQFCgAPACwAAAIADQANAAAENPA9s4y8+IUVcqaWJ4qEQozSoAzoIyhCK2NFU2SJk0hNnyEOhKR2AzAAj4Pj4GE4W0bkJQIAOw==" };
-  var PT_CV_PAGINATION = { "first": "\u00ab", "prev": "\u2039", "next": "\u203a", "last": "\u00bb", "goto_first": "Go to first page", "goto_prev": "Go to previous page", "goto_next": "Go to next page", "goto_last": "Go to last page", "current_page": "Current page is", "goto_page": "Go to page" };
-  /* ]]> */
-</script>
-<script type="text/javascript"
-  src="/wp-content/plugins/content-views-query-and-display-post-page/public/assets/js/cva7a0.js?ver=3.6.1"
-  id="pt-cv-content-views-script-js"></script>
-<script type="text/javascript" src="assets/c0.wp.com/c/6.4.1/wp-includes/js/comment-reply.min.js" id="comment-reply-js"
-  async="async" data-wp-strategy="async"></script>
+
+
 </div> <!-- /.l-content -->
 <aside class="l-wrap__sabbath l-sabbath js-sticky-parent js-toggle-menu ">
   <div class="l-sabbath__logo js-sticky">

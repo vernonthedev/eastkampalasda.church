@@ -114,9 +114,9 @@ if (isset($_POST['submit'])) {
 
 	    if(move_uploaded_file($tmp_banner, $banner_path)){
  try{
-	        $insert_banner = "INSERT INTO banner_slider(id, banner_title, banner_content, banner_img) VALUES(?, ?, ?, ?)";
+	        $insert_banner = "INSERT INTO banner_slider(banner_title, banner_content, banner_img) VALUES(?, ?, ?)";
 	        $run_query = $conn->prepare($insert_banner);
-	        $run_query->execute(["",$banner_title, $banner_msg, $banner_img]);
+	        $run_query->execute([$banner_title, $banner_msg, $banner_img]);
 
 //			Check if we return and user data from the db inform of rows
 	        if ($run_query->rowCount() > 0){

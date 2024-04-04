@@ -61,6 +61,8 @@ $results = $run_query->fetchAll();
                                                 ?>
 
                                                 <form action="" method="POST" enctype="multipart/form-data" >
+                                                <input type="hidden" name="e_id" value="<?php echo $e_id; ?>">
+
                                                     <div class="mb-3">
                                                         <label for="example-text-input" class="form-label">Event Title:</label>
                                                         <input required class="form-control" type="text"
@@ -116,35 +118,54 @@ $results = $run_query->fetchAll();
 </html>
 
 <?php
+// Enable error reporting for debugging purposes
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 if (isset($_POST['submit'])) {
-	$e_title = $_POST['e_title'];
-	$e_date = $_POST['e_date'];
-	$e_place = $_POST['e_place'];
-	$e_content = $_POST['e_content'];
+    // Assuming $conn is your valid database connection
+    // Include database connection code if not already included
 
-	$uploaddir = 'events';
-	    if(!is_dir($uploaddir)){
-	        mkdir($uploaddir);
-	    }
-	    $e_img = $_FILES['e_img']['name'];
-	    $e_tmp = $_FILES['e_img']['tmp_name'];
-	    $e_path = $uploaddir ."/". $e_img;
+    // Check if all required fields are set
+    if (isset($_POST['e_title'], $_POST['e_date'], $_POST['e_place'], $_POST['e_content'])) {
+        $e_title = $_POST['e_title'];
+        $e_date = $_POST['e_date'];
+        $e_place = $_POST['e_place'];
+        $e_content = $_POST['e_content'];
+        $e_id = $_POST['e_id'];
 
-	    if(move_uploaded_file($e_tmp, $e_path)){
+        $uploaddir = 'events';
+        if (!is_dir($uploaddir)) {
+            mkdir($uploaddir);
+        }
+        $e_img = $_FILES['e_img']['name'];
+        $e_tmp = $_FILES['e_img']['tmp_name'];
+        $e_path = $uploaddir . "/" . $e_img;
 
-	        $update_event = "UPDATE `event_list` SET `event_title`=?,`event_date`=?,`event_place`=?,`event_content`=?,`event_img`=? WHERE `event_id` = ?";
-	        $run_query = $conn->prepare($update_event);
-	        $run_query->execute([$e_title, $e_date, $e_place, $e_content, $e_img, $e_id]);
-	        if ($run_query->rowCount() > 0){
-	            echo '<script>swal("Complete", "Event Updated Successfully", "success");</script>';
-	            echo '<script> window.location.href = "event-list.php";</script>';
-	        }
-	        else{
-	            echo '<script>swal("Failed", "Event Not Updated", "error");</script>';
-	        }
-	    }
-	    else{
-	        echo '<script>swal("Failure", "Event Not Updated", "error");</script>';
-	    }
+        // Check if the file was uploaded successfully
+        if (move_uploaded_file($e_tmp, $e_path)) {
+
+            // Prepare and execute the SQL query
+            $update_event = "UPDATE `event_list` SET `event_title`=?, `event_date`=?, `event_place`=?, `event_content`=?, `event_img`=? WHERE `event_id`=?";
+            $run_query = $conn->prepare($update_event);
+
+            // Execute the query with parameters
+            if ($run_query->execute([$e_title, $e_date, $e_place, $e_content, $e_img, $e_id])) {
+                // Check if the query affected any rows
+                if ($run_query->rowCount() > 0) {
+                    echo '<script>alert("Event Updated Successfully");</script>';
+                    echo '<script>window.location.href = "event-list.php";</script>';
+                } else {
+                    echo '<script>alert("No rows were updated. Check event ID.");</script>';
+                }
+            } else {
+                echo '<script>alert("Error executing query: ' . $run_query->errorInfo()[2] . '");</script>';
+            }
+        } else {
+            echo '<script>alert("Error uploading file.");</script>';
+        }
+    } else {
+        echo '<script>alert("All fields are required.");</script>';
+    }
 }
 ?>
